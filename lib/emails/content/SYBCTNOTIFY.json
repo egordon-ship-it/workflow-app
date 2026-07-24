@@ -1,0 +1,7 @@
+{
+  "key": "SYBCTNOTIFY",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\SYBCTNOTIFY.docx",
+  "subjectHint": null,
+  "body": "Hello @SalesPersonInfo.SalesPersonName@,\nA Soundtrack Conversion Task has been created for the following Customer\nConversion Task [Link]\nThank you,\nThe Dynamic Media Team"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "PSAVFDBKSBMT",
+  "versionUsed": null,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\PSAVFDBKSBMT - Encore.docx",
+  "subjectHint": "@Category@ from Portal Feedback Form",
+  "body": "Name: @ContactName@\nEmail: @ContactEmail@\nPhone: @ContactPhone1@\n\nCategory: @Category@\n\nFeedback:\n@Text@"
+}

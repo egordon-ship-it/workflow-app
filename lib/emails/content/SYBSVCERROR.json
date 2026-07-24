@@ -1,0 +1,7 @@
+{
+  "key": "SYBSVCERROR",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\SYBSVCERROR.docx",
+  "subjectHint": null,
+  "body": "Hello,\nErrors have occurred while attempting to @SYBSvcLog.ActOrTerm@. The details are listed below:\nCustomer: @Customer.Name@ (@Customer.CustomerID@)\nRadioID: @Radio.RadioIDNum@\nError: @SYBSvcLog.Error@\n@Task@\nPlease contact the IT department if you have any questions.\nThank you,\nThe Dynamic Media Team"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "FREETRIAL",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\FREETRIAL.docx",
+  "subjectHint": null,
+  "body": "Hi @ContactFirstName@,\nThis SiriusXM Internet FREE TRIAL Credential request is being made by: National Telecom Deployments (NTD) / Dynamic Media.\n\nThe credentials were not received by Dynamic Media within 24 hours of the initial customer request.\n\nThese are NOT billable credentials to National Telecom Deployments (NTD) / Dynamic Media.\nCompany Contact: @Contact.FirstName@\nCompany Name: @Customer.Name@\nAddress 1: @Customer.Ship.Address1@\nAddress 2: @Customer.Ship.City@, @Customer.Ship.State@ @Customer.Ship.Zip@\nPhone Number: @PrimaryContact.Phone1@\nPersonal ID: @Customer.CustomerID@\nIndustry: @Site.Industry@\nSubscription Type: Internet FREE TRIAL Credentials\nPlease let me know if you have any questions,\n@SalesPersonName@\n@Position@\n@DID@"
+}

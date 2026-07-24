@@ -1,0 +1,7 @@
+{
+  "key": "PortPassRes",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\PortPassRes.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nA password reset has been requested for your Dynamic Media Customer Portal account.\nYour temporary login credentials are below:\nUsername: @Contact.EMail@\nTemporary Password: @NewPassword@\nAfter logging in, you can change your password from the account settings.\nIf you didn't request this reset or need assistance accessing your account, please give us a call at 586-978-4214.\nThank you,\nThe Dynamic Media Team"
+}

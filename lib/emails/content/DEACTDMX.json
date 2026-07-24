@@ -1,0 +1,7 @@
+{
+  "key": "DEACTDMX",
+  "versionUsed": 1,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\DEACTDMX.docx",
+  "subjectHint": null,
+  "body": "Please terminate this account. Please respond to confirm this.\n\nBusiness Name: @Customer.Name@\n\nDevice ID: @Radio.RadioIDNum@\n\nReason for Termination: non-payment"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "PassResTHFR",
+  "versionUsed": null,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\PassResTHFR.docx",
+  "subjectHint": "Boutique Tim Hortons — Réinitialisation du mot de passe",
+  "body": "Demande de réinitialisation du mot de passe\nBonjour @Contact.FirstName@,\n\nNous avons reçu une demande de réinitialisation de votre mot de passe pour la boutique musicale Tim Hortons Dynamic Media. Voici vos nouveaux identifiants de connexion :\n\nNouveaux identifiants de connexion\nNom d'utilisateur : @Contact.EMail@\n\nMot de passe temporaire : @NewPassword@\n\nPour des raisons de sécurité, veuillez vous connecter et modifier votre mot de passe immédiatement. Si vous n'avez pas demandé cette réinitialisation, veuillez ignorer ce courriel ou communiquer avec le soutien.\n\nSi vous avez besoin d'une aide supplémentaire, veuillez écrire à THsupport@dm-us.com."
+}

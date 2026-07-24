@@ -1,0 +1,7 @@
+{
+  "key": "CCExpire1",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\CCExpire1.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nThe credit or debit card we have on file for your account is scheduled to expire in @BillingGroup.Month@ @BillingGroup.Year@.\nTo ensure your music service continues without interruption, please update your payment information before the expiration date.\nLog in here:\nhttps://portal.dynamicmediamusic.com\nUsername:\n@Contact.Email@\nIf you’re logging in for the first time, here is your temporary Password:\n@Customer.CustomerID@\nOnce inside:\nSelect Billing Group\nChoose @BillingGroup.Name@\nUpdate your payment information\nNeed help?\nCall us anytime Monday–Friday, 9 AM–6 PM ET at 586-978-4214.\nThank you,\nBilling Team at Dynamic Media"
+}

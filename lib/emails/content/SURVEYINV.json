@@ -1,0 +1,7 @@
+{
+  "key": "SURVEYINV",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SURVEYINV.docx",
+  "subjectHint": null,
+  "body": "Hi @ContactFirstName@,\nWe've created a @SurveyTitle@ for you.\nYour feedback helps us continue improving our products and customer experience.\nTo complete the survey, simply click the link below:\n@Domain@?SurveyCode=@SurveyCode@\nIf you have any questions or need assistance, we're happy to help.\nThank you!\n@SalesPersonName@\n@SalesPersonPosition@"
+}

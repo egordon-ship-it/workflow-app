@@ -1,0 +1,7 @@
+{
+  "key": "PayInvoice",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\PayInvoice.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.Name@,\nYour invoice is ready.\nTo securely review and pay your invoice, simply use the link below.\nReview & Pay Invoice\nPlease note that this payment link is valid for 30 days.\nIf you have any questions about your invoice or need assistance, our team is happy to help.\nPhone: 1-800-684-7050\nCall us Monday–Friday, 9 AM–6 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you for choosing Dynamic Media.\nBilling Team at Dynamic Media"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "OrderShip",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\OrderShip.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nGood news! Your order (#@OrderNumber@) has shipped. Here’s the tracking number and your order details.\nCarrier: @OrderShippingDetail.Carrier@\nTracking Number: @OrderShippingDetail.TrackingNumber@\nShipping to:\n@ShipTo.SiteName@\n@ShipTo.Name@\n@Shipping.Address@\nIf you have any questions about your shipment, our customer care team is happy to help.\nCall us Monday–Friday, 9 AM–6 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you for choosing Dynamic Media. Enjoy your music!\nThe Dynamic Media Team"
+}

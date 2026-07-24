@@ -1,0 +1,89 @@
+---
+description: Dynamic Media design system conventions
+alwaysApply: true
+---
+
+# Dynamic Media design system
+
+This project follows the Dynamic Media internal-app design system
+(originating in the Sales Research Engine). When building UI, follow
+these conventions exactly — do not invent parallel treatments.
+
+## Color and theming
+
+- Brand accent is `#00AEEF` (Dynamic Media cyan). It is exposed ONLY
+  through the `accent` token. Never hard-code hex values in components.
+- All colors come from the semantic Tailwind classes wired in
+  `tailwind.config.ts` → CSS variables in `app/globals.css`:
+  - `bg-surface-primary` (page bg), `bg-surface-secondary` (cards,
+    sidebar, topbar), `bg-surface-elevated` (hovers, wells),
+    `border-surface-border` / `ring-surface-border` (hairlines)
+  - `text-text-primary`, `text-text-secondary`, `text-text-muted`
+  - `bg-accent`, `hover:bg-accent-hover`, `bg-accent-muted`
+- Dark mode is class-based (`next-themes`, `.dark` on `<html>`), dark
+  by default. Because everything reads tokens, components need no
+  `dark:` variants for the core palette — only for one-off tinted
+  states (e.g. `dark:bg-rose-900/40`).
+
+## Layout shell
+
+- Fixed 240px (`w-60`) sidebar on the left with the DM logo header
+  (white-blue lockup in dark mode, black-blue in light), grouped nav
+  sections with 10px uppercase tracked labels, and a quiet footer.
+- Fixed 56px (`h-14`) top bar with theme toggle and avatar menu.
+- Main content: `ml-60 pt-20 px-8 pb-8 bg-surface-primary`.
+- Pages with chrome live inside the `(shell)` route group; chrome-free
+  pages (sign-in, print views) live outside it.
+- Nav links use `.sidebar-link` / `.sidebar-link-active` from
+  globals.css; a primary "start here" CTA uses `.sidebar-link-primary`.
+
+## Primitives — use these, don't re-derive
+
+- `components/ui/Card.tsx` — the ONE surface container: `rounded-xl`,
+  solid `surface-secondary`, single `ring-1` hairline, `p-5`. Tones for
+  accent/warning/success; optional colored left accent bar.
+- `components/ui/SectionHeader.tsx` — the ONE section header: thin
+  uppercase tracked label + small lucide icon + optional right action.
+  Icon and label share one accent color per section.
+- `components/ui/GroupLabel.tsx` — labeled hairline divider naming a
+  zone of cards; one tier above SectionHeader.
+- `components/ui/Badge.tsx` — the ONE pill/chip: semantic `tone` for
+  status/severity, `tone="none"` + className for identity palettes.
+- `components/ui/DataTable.tsx` — dense table shell (`text-xs`,
+  hairline dividers, subtle hover). Use the exported row/cell class
+  constants; numeric columns add `tabular-nums`.
+- `components/ui/EmptySectionCard.tsx` — the ONE empty-state: accent
+  bar card + header + full-width dashed CTA styled with
+  `emptySectionCtaClass`.
+
+## Buttons and inputs
+
+There is deliberately no `<Button>` component. Use the canonical class
+recipes (see `app/(shell)/styleguide/InteractiveDemos.tsx`):
+
+- Primary: `bg-accent … hover:bg-accent-hover` (h-9, rounded-md, sm text)
+- Secondary: bordered `bg-surface-elevated`
+- Danger: `bg-red-600 hover:bg-red-500`
+- Inputs: `rounded-md border border-surface-border bg-surface-primary
+  px-3 py-2 text-sm … focus:border-accent focus:ring-1 focus:ring-accent`
+
+## Dialogs and notifications
+
+- Native `window.confirm` / `alert` / `prompt` are BANNED (enforced in
+  `.eslintrc.json`). Never use them.
+- Yes/no questions: `useConfirm()` from `components/ConfirmDialog.tsx`
+  (promise-based; `tone: "danger"` for destructive actions).
+- Transient notifications: `react-hot-toast` (`toast.success`,
+  `toast.error`) — the Toaster is already styled with surface tokens.
+- Anything needing input: a purpose-built portal modal styled like the
+  ConfirmDialog (border-surface-border, bg-surface-secondary,
+  shadow-2xl, accent top border).
+
+## Iconography and type
+
+- Icons: lucide-react only, `strokeWidth={1.8}`. Sizes: 18 in nav,
+  13 in section headers, 14–16 in buttons/menus.
+- Font: Inter via `next/font` (`--font-inter`), weights 300–700.
+- Type scale: `text-2xl font-semibold` page titles, `text-base
+  font-semibold` dialog headings, `text-sm` body, `text-xs` metadata,
+  10–11px uppercase tracked labels.

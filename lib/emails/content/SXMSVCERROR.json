@@ -1,0 +1,7 @@
+{
+  "key": "SXMSVCERROR",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\SXMSVCERROR.docx",
+  "subjectHint": null,
+  "body": "An attempt to @SXMSvcLog.ActOrTerm@ the following SiriusXM service was unsuccessful.\nAccount Details\nCustomer:\n@Customer.Name@ (@Customer.CustomerID@)\nRadio ID:\n@Radio.RadioIDNum@\nUsername:\n@Service.RadioIDNum@\nPassword:\n@Radio.RadioPassword@\nError Details\nCode\n@SXMSvcLog.ResponseCode@\nMessage\n@SXMSvcLog.ResponseText@\nIf the issue is related to password requirements, update the password to include:\nAt least 8 characters\nOne uppercase letter\nOne lowercase letter\nOne number\n@Task@\nPlease contact IT if additional assistance is needed."
+}

@@ -1,0 +1,7 @@
+{
+  "key": "DEACTSXIR",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\DEACTSXIR.docx",
+  "subjectHint": null,
+  "body": "Hello,\nThis SXIR Internet Deactivation is being made by:\n\nNational Telecom Deployments (NTD) / Dynamic Media Account Number 114403782274\n\nCompany Contact: @PrimaryContact.FullName@\n\nCompany Name: @Customer.Name@\n\nAddress 1: @Customer.Ship.Address1@\n\nAddress 2: @Customer.Ship.City@, @Customer.Ship.State@ @Customer.Ship.Zip@\n\nPhone Number: @PrimaryContact.Phone1@\n\nPersonal ID: @Customer.CustomerID@\n\nIndustry: @Site.Industry@\n\nThis is a SXIR Internet Deactivation.\n\nUsername: @Radio.RadioIDNum@\n\nPassword: @Radio.RadioPassword@\n\nSubscription Type: Commercial Internet Radio - 1mo - (DSTR) - w/Actv\nThank you,\nThe Dynamic Media Team"
+}

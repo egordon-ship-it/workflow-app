@@ -1,0 +1,7 @@
+{
+  "key": "SndPrpsl",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SndPrpsl.docx",
+  "subjectHint": null,
+  "body": "Hi @ContactFirstName@,\nAttached is the proposal we discussed.\nPlease take a look when you have a chance, and let me know if you have any questions or would like to review any part of it together.\nI look forward to hearing your thoughts.\nThank you,\n@SalesPeople.SalesPersonName-First@\n@SalesPeople.SalesPersonName@"
+}

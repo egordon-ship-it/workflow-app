@@ -1,0 +1,7 @@
+{
+  "key": "SYBNOTDEMO",
+  "versionUsed": null,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\SYBNOTDEMO.docx",
+  "subjectHint": "Free Trial Notification - Account Created",
+  "body": "Hello,\n\nA free trial account has been created for the following lead:\n\nBusiness Name: @CustomerName@\nContact Name: @ContactName@\nEmail Address: @ContactEmail@\nPhone Number: @ContactPhone@\n\nThe free trial will expire the morning of @DemoEndDate@."
+}

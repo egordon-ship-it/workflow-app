@@ -1,0 +1,7 @@
+{
+  "key": "DEALERINV",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\DEALERINV.docx",
+  "subjectHint": null,
+  "body": "Hi @ContactFirstName@,\nThe dealer registration invitation you requested is enclosed below. Thank you for your interest in becoming a Dynamic Media dealer!\nHow to Register\nComplete your registration online by following these simple steps:\nGo to our online portal at https://portal.dynamicmediamusic.com/DealerSignup/\nEnter Your Web Code – @WebCode@\nFollow the online wizard\nBe sure to let me know of any questions!\nMy Best,\n@SalesPersonName@\n@Position@\n@DID@"
+}

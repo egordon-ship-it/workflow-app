@@ -1,0 +1,7 @@
+{
+  "key": "SENDREBATE",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SENDREBATE.docx",
+  "subjectHint": null,
+  "body": "Hi @ContactFirstName@,\nAttached is the rebate information for your @PartName@ purchased on @OrderDate@ (Order #@OrderNumber@).\nIf you have any questions about completing your rebate or need any assistance, don't hesitate to reach out.\nThank you,\n@SalesPersonFirstName@\n@SalesPersonName@\n@Position@\n@DID@"
+}

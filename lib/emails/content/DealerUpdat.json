@@ -1,0 +1,7 @@
+{
+  "key": "DealerUpdat",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\DealerUpdat.docx",
+  "subjectHint": null,
+  "body": "Hi @ContactFirstName@,\nI wanted to give you an update on your recent referral:\nDealer ID: @Referral.DealerID@\nReferral ID: @Referral.DealerReferralID@\nReferral Status: @TaskStatus.Title@\nPlease let me know if you have any questions,\n@SalesPersonName@\n@Position@\n@DID@"
+}

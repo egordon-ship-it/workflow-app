@@ -1,0 +1,7 @@
+{
+  "key": "CCExpire2",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\CCExpire2.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nThis is a reminder that the payment method on your account will expire in @BillingGroup.Month@ @BillingGroup.Year@.\nUpdating your card now will help prevent any interruption to your music service or a potential reactivation fee.\nPlease log in here:\nhttps://portal.dynamicmediamusic.com\nUsername:\n@Contact.Email@\nIf you’re logging in for the first time, here is your temporary password:\n@Customer.CustomerID@\nThen:\nSelect Billing Group\nChoose @BillingGroup.Name@\nUpdate your card information\nIf you'd prefer, our customer support team can also assist you by phone.\n586-978-4214\nThank you,\nBilling Team at Dynamic Media"
+}

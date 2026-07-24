@@ -1,0 +1,7 @@
+{
+  "key": "ACTDEMO",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\ACTDEMO.docx",
+  "subjectHint": null,
+  "body": "Hi @FirstName@,\nWelcome! Your SiriusXM Business free trial is now active and ready to use.\nHere are your login credentials:\nUsername: @RadioIDNum@\nPassword: @RadioPassword@\nYou will have unlimited access to SiriusXM for business until @DemoEndDate@.\nIf you have any questions or need help getting started, we're here for you. Feel free to check out our help center for quick set up guides.\n[Help Center]\nhttps://help.dynamicmediamusic.com/\nThank you and enjoy the music!\n@SalesPersonName@\n@SalesPersonEmail@\n@SalesPersonPhone@"
+}

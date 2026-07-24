@@ -1,0 +1,7 @@
+{
+  "key": "SURVEYCMPLT",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\SURVEYCMPLT.docx",
+  "subjectHint": null,
+  "body": "Hi @FirstName@,\n@RespondentName@ has completed the survey, @SurveyTitle@. The associated Survey Manager task (@TaskID@) is assigned to you; please complete any remaining follow up steps at your earliest convenience.\nThank You,\n@SendFromName@\n@SendFromTitle@"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "AEPayNotify",
+  "versionUsed": null,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\AEPayNotify.docx",
+  "subjectHint": "@Customer.Name@ Payment Notification",
+  "body": "Payment Notification\nCustomer: @Customer.Name@\nOrder #: @Order.Number@\n\nPaid Amount: $ @Payment.Amount@\nBalance Due: $ @Order.Balance@"
+}

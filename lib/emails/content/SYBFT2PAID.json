@@ -1,0 +1,7 @@
+{
+  "key": "SYBFT2PAID",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\SYBFT2PAID.docx",
+  "subjectHint": null,
+  "body": "Please convert the following Soundtrack Your Brand trial account to a paid subscription.\nCustomer\n@Customer.Name@\nCustomer ID:\n@Customer.CustomerID@\nActivation Date:\n@ActivationDate@\nSubscription URL:\n@SYBURLText@\nThank you."
+}

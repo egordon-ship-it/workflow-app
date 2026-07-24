@@ -1,0 +1,7 @@
+{
+  "key": "NOTIFYDEMO",
+  "versionUsed": 1,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\NOTIFYDEMO.docx",
+  "subjectHint": null,
+  "body": "Hello,\nA free trial account has been created for the following lead:\nBusiness Name: @CustomerName@\nContact Name: @ContactName@\nEmail Address: @ContactEmail@\nPhone Number: @ContactPhone@\n\nThe free trial will expire the morning of @DemoEndDate@."
+}

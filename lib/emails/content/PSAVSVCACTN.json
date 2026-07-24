@@ -1,0 +1,7 @@
+{
+  "key": "PSAVSVCACTN",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Encore\\PSAVSVCACTN.docx",
+  "subjectHint": null,
+  "body": "Hi @FirstName@,\nThis email confirms the @RequestTypeLowercase@ you recently scheduled in the Dynamic Media Music Portal.\nRequest Details\nLocation:\n@SiteDetails@\nSubscription Type:\n@SubscriptionType@\nPairing Code:\n@PairingCode@\nStart Date:\n@ServiceStartDate@\nEnd Date:\n@ServiceEndDate@\nNeed to make changes?\nLog into the Music Portal anytime.\nQuestions?\nencore@dm-us.com\nNeed assistance? We’re here to help.\nCall us Monday–Friday, 9 AM–6 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team"
+}

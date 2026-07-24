@@ -1,0 +1,7 @@
+{
+  "key": "SndOnSgn",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SndOnSgn.docx",
+  "subjectHint": null,
+  "body": "Hi @ContactFirstName@,\nAs discussed, your online agreement is ready.\nTo complete your order:\nVisit:\nhttps://portal.dm-us.com/onlinesign/\nEnter your Web Code:\n@AgreementArchive.WebCode@\nFollow the prompts to complete your agreement.\nIf you have any questions during the process, feel free to reach out.\nThank you—we appreciate your business!\n@SalesPeople.SalesPersonName-First@\n@SalesPeople.SalesPersonName@"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "TASKASSIGN",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\TASKASSIGN.docx",
+  "subjectHint": null,
+  "body": "Hi @SalesPeople.SalesPersonName-First@,\n@CustomerName@ placed an order (#@OrderID@) on the @Channel@ within the past 24 hours. A @TaskTypeTitle@ Task has been created for you. Please follow up at your earliest convenience.\nThank you,\nThe Dynamic Media Team"
+}

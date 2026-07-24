@@ -1,0 +1,7 @@
+{
+  "key": "PSAVNEWUSER",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Encore\\PSAVNEWUSER.docx",
+  "subjectHint": null,
+  "body": "Hi @FirstName@,\nYou've been invited to the Dynamic Media Music Portal.\nThis is where you'll manage the music for your assigned location(s).\nAccount Details\nLocation(s):\n@SiteNames@\nUsername:\n@Username@\nPassword:\n@Password@\nLog In Here\nOnce you're logged in, you'll be able to manage your music and settings for your location.\nNeed assistance? We’re here to help.\nCall us Monday–Friday, 9 AM–6 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "SHOPTHCONFF",
+  "versionUsed": null,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\SHOPTHCONFF.docx",
+  "subjectHint": "Magasin de musique de Tim Hortons - Confirmation d'achat",
+  "body": "Numéro de client : @Customer.CustomerID@\nNuméro de commande : @Order.OrderNumber@\nBonjour @Contact.FirstName@,\n\n@FirstParagraphCopy@\n\nEntre-temps, surveillez une invitation à notre portail client, où vous pourrez suivre vos commandes, consulter vos factures et gérer votre compte.\n\nLes détails de votre commande sont indiqués ci-dessous. Si vous avez des questions ou si vous avez besoin d'aide, veuillez écrire à THsupport@dm-us.com.\n\n@OrderPartRows@\nExpédition\t@ShippingCost@\nTaxe\t@TaxCost@\nTotal\t@OrderTotal@\n*Tous les montants sont en @CurrencySuffix@. Les frais récurrents du service de musique (mensuels ou annuels) seront facturés automatiquement au mode de paiement enregistré, selon le ou les forfaits choisis et le nombre d'emplacements.\n\nTélécharger la facture\n\nSi vous avez des questions, vous pouvez nous joindre à THsupport@dm-us.com.\n\nLe programme de musique officiel de Tim Hortons\n© @CurrentYear@ Dynamic Media"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "SATSENDCRED",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SATSENDCRED.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nWelcome to SiriusXM Business!\nYour satellite radio service is now active and ready to use at the location below.\nLocation\n@Site.Name@ (@Site.ClientKey@)\n@Site.Address.Address1@\n@Site.Address.City@, @Site.Address.State@ @Site.Address.Zip@\n@Site.Address.CountryID@\nRadio ID: @RadioIDNum@\nHelpful Resources\nHardware Setup & Troubleshooting\nChannel Guide\nIf you have any questions or need help getting started, our team is here to help.\nCall us Monday–Friday, 9 AM–6 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team"
+}

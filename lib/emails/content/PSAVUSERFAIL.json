@@ -1,0 +1,7 @@
+{
+  "key": "PSAVUSERFAIL",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Encore\\PSAVUSERFAIL.docx",
+  "subjectHint": null,
+  "body": "Hi @FirstName@,\nWe wanted to let you know that the user below has not yet accepted their invitation to the Dynamic Media Music Portal.\nDespite multiple reminder emails over the past 28 days, they have not logged in.\nUser Information\nUser\n@UserFirstLast@\nEmail\n@UserEmail@\nLocation\n@SiteNames@\nIf this person should continue managing music for this location, we recommend following up with them directly or inviting another contact.\nThank you,\nDynamic Media Music Portal"
+}

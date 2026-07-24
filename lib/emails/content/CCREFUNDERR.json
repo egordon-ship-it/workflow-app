@@ -1,0 +1,7 @@
+{
+  "key": "CCREFUNDERR",
+  "versionUsed": null,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\CCREFUNDERR.docx",
+  "subjectHint": "CC Partial Refund Error for OrderID: @Order.OrderID@",
+  "body": "Hello,\nThere was an attempt to refund a credit card transaction but it appears to have failed. The details are listed below:\n\nCustomer: @Customer.Name@ (@Customer.CustomerID@)\nOrderID: @Order.OrderID@\n\nCRM Actual Refund: $@Order.OriginalRefundAmount@\nActual Base Commerce Refund: $@Order.ActualRefundAmount@\n\nPlease contact the IT department if you have any questions."
+}

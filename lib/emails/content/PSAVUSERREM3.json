@@ -1,0 +1,7 @@
+{
+  "key": "PSAVUSERREM3",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Encore\\PSAVUSERREM3.docx",
+  "subjectHint": null,
+  "body": "Hi @FirstName@,\nThis is your final reminder to activate your Dynamic Media Music Portal account.\nLogging in gives you access to manage music for your location whenever you need it.\nLogin Information\nLocation\n@SiteNames@\nUsername\n@Username@\nPassword\n@Password@\nLog In to the Music Portal\nIf you're having trouble logging in or believe you received this email by mistake, please let us know.\nencore@dm-us.com\nCall us Monday–Friday, 9 AM–6 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team"
+}

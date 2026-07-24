@@ -1,0 +1,7 @@
+{
+  "key": "THNOTONLINEFR",
+  "versionUsed": null,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\THNOTONLINEFR.docx",
+  "subjectHint": "Mettons vos lecteurs musicaux en ligne — Besoin d'aide?",
+  "body": "Besoin d'aide pour mettre\nvos lecteurs musicaux en ligne?\nNous n'avons pas encore vu votre lecteur se connecter — avez-vous besoin d'un coup de main?\n\nBonjour @ContactName@,\n\nVos lecteurs musicaux ont été livrés et nous avons remarqué qu'ils ne sont pas encore en ligne. Nous voulons nous assurer que vous avez bien reçu tout et que vous ne rencontrez aucun problème de configuration.\n\nCes lecteurs ne se sont pas encore connectés :\n\n@SiteList@\nAdresse de l'établissement\tNuméro de suivi\tDate de livraison\n\nSi vos lecteurs sont installés et fonctionnent, tout est en ordre! En revanche, si vous rencontrez des difficultés, nous sommes là pour vous aider — cliquez ci-dessous pour obtenir du soutien.\n\nVidéo : Comment installer votre lecteur\nVidéo : Comment configurer votre télécommande\nGuide d'installation et de configuration\nGuide de dépannage\nSite Web de soutien\n\nCommuniquer avec notre équipe de soutien\n\nNous sommes là pour que tout se passe bien — n'hésitez pas à communiquer avec nous. Nous serons ravis de vous aider!\n\n— L'équipe Dynamic Media"
+}

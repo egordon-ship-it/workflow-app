@@ -1,0 +1,7 @@
+{
+  "key": "ACTPLAY",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\ACTPLAY.docx",
+  "subjectHint": null,
+  "body": "Hello,\n@Customer.Name@ has a Play Network Activation Scheduled for today.\nhttp://crm.dm-us.com/Customer?CustomerID=@Customer.CustomerID@\nPlease make sure that the Service is activated for this customer.\nhttp://serenade.playnetwork.com/default.aspx\nThank you,\nThe Dynamic Media Team"
+}

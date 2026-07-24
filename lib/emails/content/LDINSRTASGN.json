@@ -1,0 +1,7 @@
+{
+  "key": "LDINSRTASGN",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\LDINSRTASGN.docx",
+  "subjectHint": null,
+  "body": "Hello,\nA new lead has been created into the CRM. The lead and link are below.\nLead Type: @SxmWebLeadType.Type@\nLead Link: @CRM.TaskLink@\n@ProvStore.PageAbandonedOn@ @ProvStore.DateAbandonedOn@ @DateInitiated@ Customer Name: @Customer.Name@\nContact: @Contact.FirstName@ @Contact.LastName@\nPhone: @Customer.Phone1@\nEmail: @Contact.EMail@\n@UserAgent.CDPTemplateData@\nThank you,\nDynamic Media\n- - - - -\nFor questions, concerns, or suggestions regarding this email please contact the Dev Team."
+}

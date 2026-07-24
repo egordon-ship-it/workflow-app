@@ -1,0 +1,7 @@
+{
+  "key": "PSAVSUBWARN",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Encore\\PSAVSUBWARN.docx",
+  "subjectHint": null,
+  "body": "Hi @FirstName@,\nThis is a friendly reminder that the music subscription below is scheduled to end soon.\nSubscription Details\nLocation\n@SiteNames@\nZone\n@ServiceDescription@\nScheduled End Date\n@ServiceEndDate@\nTo keep your music playing without interruption:\nLog in to the Music Portal.\nSelect your location.\nChoose Manage Subscription.\nClick Change Service End Date.\nSave your changes.\nLog In to the Music Portal\nQuestions?\nencore@dm-us.com\nThank you!"
+}

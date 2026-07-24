@@ -1,0 +1,7 @@
+{
+  "key": "SENDWRNTY",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SENDWRNTY.docx",
+  "subjectHint": null,
+  "body": "Hi @ContactFirstName@,\nThank you for your recent purchase.\nTo activate your warranty, please complete the online warranty form using the information below.\nWarranty Registration\nVisit:\nOnline Warranty Form\nWeb Code\n@RMANumber@\nComplete the form and submit it when finished.\nIf you have any questions, I'm happy to help.\nThanks,\n@SalesPersonFirstName@\n@SalesPersonName@\n@SalesPersonPosition@\n800-684-7050 x@SalesPersonExtension@"
+}

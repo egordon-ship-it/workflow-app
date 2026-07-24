@@ -1,0 +1,7 @@
+{
+  "key": "CCDenRem2",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\CCDenRem2.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nWe're reaching out again because we were still unable to process the payment method on your account.\nTo avoid an interruption in your music service and a $15 reactivation fee, please update your payment information as soon as possible.\nIf payment isn't received, your service is scheduled to deactivate on @DeactDate@.\nHow to update your payment method:\nGo to https://portal.dynamicmediamusic.com\nFrom there:\nOpen Billing Details\nSelect @BillingGroup.Name@\nUpdate your payment method\nGo to Invoices\nSelect Pay\nClick Charge this Card ($@Order.Total@)\nNeed help?\nCall our Customer Support team at 586-978-4214\nMonday–Friday | 9:00 AM–6:00 PM ET\nThank you,\nBilling Team at Dynamic Media"
+}

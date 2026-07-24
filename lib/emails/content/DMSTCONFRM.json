@@ -1,0 +1,7 @@
+{
+  "key": "DMSTCONFRM",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\DMSTCONFRM.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nThank you for your order!\nYour purchase is complete, and we're excited to help you get started.\nIf your order includes music service, each site contact you provided will receive a separate email with their login credentials. You'll also receive an invitation to the Dynamic Media Customer Portal, where you can view your account, manage billing, and download invoices.\nOrder Summary\nCustomer Number\n@Customer.CustomerID@\nOrder Number\n@Order.OrderNumber@\n@OrderPartRows@\nShipping: @ShippingCost@\nTax: @TaxCost@\nTotal: @OrderTotal@\n@RecurringChargeNote@\nIf you have any questions about your order, we're here to help.\nPhone: 1-888-318-5420\nEmail: sales@sybbusiness.com\nThank you for choosing us!\nDynamic Media Customer Care"
+}

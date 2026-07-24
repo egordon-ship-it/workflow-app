@@ -1,0 +1,7 @@
+{
+  "key": "PassResTH",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\PassResTH.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nA password reset has been requested for your Tim Hortons Music Portal account.\nYour Temporary Login Credentials\nUsername\n@Contact.EMail@\nTemporary Password\n@NewPassword@\nLog In to the Music Portal\nFor your security, please log in and create a new password as soon as possible.\nIf you didn't request this password reset, simply ignore this email or contact our support team.\nNeed help?\nTHsupport@dm-us.com"
+}

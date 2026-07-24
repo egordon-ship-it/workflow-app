@@ -1,0 +1,7 @@
+{
+  "key": "BIGCUSTTASK",
+  "versionUsed": null,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\BIGCUSTTASK.docx",
+  "subjectHint": "[DM Ticket] # @TicketID@ -- @StatusText@ -- @CustomerName@ @Subject@",
+  "body": "Hello,\n@parentTCInfo.ClassificationName@ -- @childTCInfo.ClassificationName@\nStatus: @StatusText@\nCustomer: @CustomerName@ (@CustomerID@)\nDescription\n@Description@"
+}

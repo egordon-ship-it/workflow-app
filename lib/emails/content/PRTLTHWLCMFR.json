@@ -1,0 +1,7 @@
+{
+  "key": "PRTLTHWLCMFR",
+  "versionUsed": null,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\PRTLTHWLCMFR.docx",
+  "subjectHint": "Bienvenue sur le portail Dynamic Media!",
+  "body": "Bienvenue sur le\nportail musical Dynamic Media!\nLe programme musical officiel de Tim Hortons\nNuméro de client : @Customer.CustomerID@\nBonjour @Contact.FirstName@,\n\nBienvenue sur le portail musical Dynamic Media – la plateforme du programme musical Tim Hortons! Votre portail est prêt : vous pouvez gérer les détails de votre compte, vos préférences de facturation et tous vos paramètres musicaux.\n\nSi vous supervisez plusieurs établissements Tim Hortons, vous pouvez mettre à jour les profils, consulter les factures et tout gérer facilement à partir d'une seule connexion.\n\nNous sommes ravis de vous accueillir! Tout comme une tasse de café fraîche, une bonne musique rend chaque moment meilleur!\n\nIdentifiants de connexion au portail\nNom d'utilisateur : @Contact.EMail@\n\nMot de passe temporaire : @Contact.Password@\n\nCliquez ici pour vous connecter\n\nSi vous avez besoin d'aide ou si vous avez des questions concernant votre portail, veuillez écrire à THsupport@dm-us.com."
+}

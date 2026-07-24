@@ -1,0 +1,7 @@
+{
+  "key": "PortWelcome",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\PortWelcome.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nWelcome to Dynamic Media!\nYour Customer Portal is ready and gives you quick access to your account information anytime.\nLog in here:\nhttps://portal.dynamicmediamusic.com\nYour Login Information\nUsername:\n@Contact.EMail@\nTemporary Password:\n@Contact.Password@\nInside the portal you can:\nUpdate your account information\nView and download invoices\nMake payments\nManage your billing information\nIf you have any questions or need help getting started, call us at 586-978-4214. You can also reach us by email at CustomerService@DM-US.com.\nThank you,\nThe Dynamic Media Team"
+}

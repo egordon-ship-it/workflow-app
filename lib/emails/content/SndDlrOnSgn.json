@@ -1,0 +1,7 @@
+{
+  "key": "SndDlrOnSgn",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SndDlrOnSgn.docx",
+  "subjectHint": null,
+  "body": "Hello,\nYour SiriusXM Business Signup Link has Arrived!\nHi @ContactCustomerRec.FirstName@,\nOn behalf of @DealerRec.Name@, we thank you for your interest in SiriusXM Music for your Business!\nFollow these steps to get started:\n1. Go to our online portal\n2. Enter Your Web Code – @AgreementArchive.WebCode@\n3. Follow the online wizard\n\nFeel free to contact our SiriusXM Business Team with any questions.\n\nThanks again!\n@DealerSalesRep.Name@\nDealer Sales Representative\nSiriusXM Dealer Sales Team | Dynamic Media\n@DM.DealerRep.DID@ (o)\n@DM.DealerRep.Email@"
+}

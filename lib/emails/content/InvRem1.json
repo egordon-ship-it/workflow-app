@@ -1,0 +1,7 @@
+{
+  "key": "InvRem1",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\InvRem1.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nJust a friendly reminder that your invoice from @Order.OrderDate@ is available for payment.\nYou can securely view, download, and pay your invoice online through the Customer Portal.\nLog in here:\nhttps://portal.dynamicmediamusic.com\nUsername:\n@Contact.Email@\nIf it’s your first time logging in, please use this temporary password:\n@Customer.CustomerID@\nOnce logged in:\nSelect My Account\nChoose Pay beside your invoice\nComplete your payment\nIf you'd rather make a payment over the phone, give us a call.\nCall us anytime Monday–Friday, 9 AM–6 PM ET at 586-978-4214.\nThank you,\nBilling Team at Dynamic Media"
+}

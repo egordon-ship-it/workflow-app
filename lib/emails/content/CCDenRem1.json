@@ -1,0 +1,7 @@
+{
+  "key": "CCDenRem1",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\CCDenRem1.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nWe weren't able to process the credit or debit card we have on file for your account.\nTo avoid any interruption to your music service, please update your payment information at your earliest convenience.\nUpdate your payment information\nLog in to the Customer Portal:\nhttps://portal.dynamicmediamusic.com\nUsername:\n@Contact.Email@\nFirst time logging in? Your temporary password is your Customer ID (@Customer.CustomerID@).\nOnce logged in:\nSelect Billing Details\nChoose @BillingGroup.Name@\nUpdate your payment method\nVisit Invoices\nSelect Pay\nClick Charge this Card ($@Order.Total@)\nNeed help?\nCall our Customer Support team at 586-978-4214\nMonday–Friday | 9:00 AM–6:00 PM ET\nThank you,\nBilling Team at Dynamic Media"
+}

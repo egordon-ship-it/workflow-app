@@ -1,0 +1,7 @@
+{
+  "key": "InvoiceReq",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\InvoiceReq.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.Name@,\nYour invoice is ready.\nYou can securely download a PDF copy using the link below:\n@Order.PublicKey@\nIf you have any questions about your invoice or your account, please don't hesitate to reach out.\nCall us anytime Monday–Friday, 9 AM–6 PM ET at 586-978-4214.\nThank you,\nBilling Team at Dynamic Media"
+}

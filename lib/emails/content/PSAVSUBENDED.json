@@ -1,0 +1,7 @@
+{
+  "key": "PSAVSUBENDED",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Encore\\PSAVSUBENDED.docx",
+  "subjectHint": null,
+  "body": "Hi @FirstName@,\nThe music subscription for the location below has ended and is no longer active.\nSubscription Details\nLocation\n@SiteNames@\nZone\n@ServiceDescription@\nEnd Date\n@ServiceEndDate@\nIf you'd like to restart this subscription:\nLog in to the Dynamic Media Music Portal.\nSelect your location.\nChoose Manage Subscription.\nClick Reactivate Subscription.\nEnter a new service start date.\nLog In to the Music Portal\nencore@dm-us.com\nNeed assistance? We’re here to help.\nCall us Monday–Friday, 9 AM–6 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team"
+}

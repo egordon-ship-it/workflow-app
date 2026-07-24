@@ -1,0 +1,7 @@
+{
+  "key": "PrtDlrWlcCM",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\PrtDlrWlcCM.docx",
+  "subjectHint": null,
+  "body": "Hi @ContactFirstName@,\nCongratulations, you are now a SiriusXM Business Dealer! We’re glad to have you on board. Here’s what you need to get started.\nLogin Into the Portal\nYou now have access to the Dealer Portal. The portal allows you to:\nCreate and send agreements to start service for your customers\nTrack historical and future commission payments\nRefer customers to your dealer representative to set up service (You still get paid!)\nAccess support and sales materials\nClick here to access the Dealer Portal.\nUsername:\t@Contact.EMail@\nPassword:\t@Contact.Password@\n\nHere are a few quick start resources for how to use the portal.\nHow-To Documents\tTutorial Videos\nCreate a New Customer\tCreate a New Customer\nPricing\nDealer Product Price List\n\nI’m here to help! Please reach out if you have any questions.\n@SalesPerson.SalesPersonName@\n1-586-693-@SalesPerson.Extension@"
+}

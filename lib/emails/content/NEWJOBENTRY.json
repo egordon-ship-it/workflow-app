@@ -1,0 +1,7 @@
+{
+  "key": "NEWJOBENTRY",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\NEWJOBENTRY.docx",
+  "subjectHint": null,
+  "body": "Hello,\nThis is a notification to inform you that a new Job has been entered into the system. Details are below:\nJobID: @Job.JobID@\nCustomer: @Customer.Name@ - (@Customer.CustomerID)\nOrderID: @Order.OrderID@\nIf you have any questions or concerns regarding this email, please feel free to let us know.\n-Dynamic Media Development Team"
+}

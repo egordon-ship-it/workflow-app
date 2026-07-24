@@ -1,0 +1,7 @@
+{
+  "key": "DEACTPLAY",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\DEACTPLAY.docx",
+  "subjectHint": null,
+  "body": "Hello,\nPlease terminate this account. Please respond to confirm this.\nBusiness Name: @Customer.Name@\nDevice ID: @Radio.RadioIDNum@\nReason for Termination: non-payment\nThank you,\nThe Dynamic Media Team"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "DLRSGNCMPLT",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\DLRSGNCMPLT.docx",
+  "subjectHint": null,
+  "body": "Hi @FirstName@,\n@Customer@ has completed the Dealer Signup process. The associated Dealer Review Manager task (@TaskID@) is assigned to you; please complete any remaining follow up steps at your earliest convenience.\nThank You,\n@SendFromName@\n@SendFromTitle@"
+}

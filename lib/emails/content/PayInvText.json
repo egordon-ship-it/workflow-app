@@ -1,0 +1,7 @@
+{
+  "key": "PayInvText",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\PayInvText - SMS.docx",
+  "subjectHint": null,
+  "body": "Hi @FirstName@, your Dynamic Media invoice is ready for payment. Use the secure link here: @Order.PublicKey@"
+}

@@ -1,0 +1,1006 @@
+{
+  "emails": {
+    "CCDenRem3": {
+      "key": "CCDenRem3",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\CCDenRem3.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nThis is our final reminder regarding your account.\nWe have not been able to process the payment method on file, and your music service is scheduled to be deactivated on @DeactDate@.\nTo avoid an interruption to your service and a reactivation fee, please update your payment information before the end of today.\nYour invoice (#@Order.OrderNumber@) is available here:\nDownload Invoice\nUpdate your payment method in the customer Portal:\nhttps://portal.dynamicmediamusic.com\nUsername:\n@Contact.Email@\nTemporary Password (if this is your first time logging in):\n@Customer.CustomerID@\nWe\u2019re here to help. If you need assistance, please call us at 586-978-4214.\nThank you,\nBilling Team at Dynamic Media",
+      "charCount": 719,
+      "lineCount": 15
+    },
+    "CCExpire1": {
+      "key": "CCExpire1",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\CCExpire1.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nThe credit or debit card we have on file for your account is scheduled to expire in @BillingGroup.Month@ @BillingGroup.Year@.\nTo ensure your music service continues without interruption, please update your payment information before the expiration date.\nLog in here:\nhttps://portal.dynamicmediamusic.com\nUsername:\n@Contact.Email@\nIf you\u2019re logging in for the first time, here is your temporary Password:\n@Customer.CustomerID@\nOnce inside:\nSelect Billing Group\nChoose @BillingGroup.Name@\nUpdate your payment information\nNeed help?\nCall us anytime Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214.\nThank you,\nBilling Team at Dynamic Media",
+      "charCount": 655,
+      "lineCount": 17
+    },
+    "CCExpire2": {
+      "key": "CCExpire2",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\CCExpire2.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nThis is a reminder that the payment method on your account will expire in @BillingGroup.Month@ @BillingGroup.Year@.\nUpdating your card now will help prevent any interruption to your music service or a potential reactivation fee.\nPlease log in here:\nhttps://portal.dynamicmediamusic.com\nUsername:\n@Contact.Email@\nIf you\u2019re logging in for the first time, here is your temporary password:\n@Customer.CustomerID@\nThen:\nSelect Billing Group\nChoose @BillingGroup.Name@\nUpdate your card information\nIf you'd prefer, our customer support team can also assist you by phone.\n586-978-4214\nThank you,\nBilling Team at Dynamic Media",
+      "charCount": 641,
+      "lineCount": 17
+    },
+    "DMSTCMSYB": {
+      "key": "DMSTCMSYB",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\DMSTCMSYB.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nThank you for your order!\nYour purchase is complete, and we're excited to help you get started.\nIf your order includes music service, each site contact you provided will receive a separate email with their login credentials. You'll also receive an invitation to the Dynamic Media Customer Portal, where you can view your account, manage billing, and download invoices.\nOrder Summary\nCustomer Number\n@Customer.CustomerID@\nOrder Number\n@Order.OrderNumber@\n@OrderPartRows@\nShipping: @ShippingCost@\nTax: @TaxCost@\nTotal: @OrderTotal@\n@RecurringChargeNote@\nIf you have any questions about your order, we're here to help.\nPhone: 586-693-1103\nEmail: sales@sybbusiness.com\nThank you for choosing us!\nDynamic Media Customer Care",
+      "charCount": 743,
+      "lineCount": 19
+    },
+    "DMSTCONFRM": {
+      "key": "DMSTCONFRM",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\DMSTCONFRM.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nThank you for your order!\nYour purchase is complete, and we're excited to help you get started.\nIf your order includes music service, each site contact you provided will receive a separate email with their login credentials. You'll also receive an invitation to the Dynamic Media Customer Portal, where you can view your account, manage billing, and download invoices.\nOrder Summary\nCustomer Number\n@Customer.CustomerID@\nOrder Number\n@Order.OrderNumber@\n@OrderPartRows@\nShipping: @ShippingCost@\nTax: @TaxCost@\nTotal: @OrderTotal@\n@RecurringChargeNote@\nIf you have any questions about your order, we're here to help.\nPhone: 1-888-318-5420\nEmail: sales@sybbusiness.com\nThank you for choosing us!\nDynamic Media Customer Care",
+      "charCount": 745,
+      "lineCount": 19
+    },
+    "InvoiceReq": {
+      "key": "InvoiceReq",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\InvoiceReq.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.Name@,\nYour invoice is ready.\nYou can securely download a PDF copy using the link below:\n@Order.PublicKey@\nIf you have any questions about your invoice or your account, please don't hesitate to reach out.\nCall us anytime Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214.\nThank you,\nBilling Team at Dynamic Media",
+      "charCount": 318,
+      "lineCount": 8
+    },
+    "InvoiceRet": {
+      "key": "InvoiceRet",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\InvoiceRet.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.Name@,\nYour refund has been processed.\nYou can download your refund invoice using the secure link below.\n@Order.PublicKey@\nIf you have any questions regarding this refund or your account, our team is happy to help.\nCall us anytime Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214.\nThank you,\nBilling Team at Dynamic Media",
+      "charCount": 328,
+      "lineCount": 8
+    },
+    "InvRem1": {
+      "key": "InvRem1",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\InvRem1.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nJust a friendly reminder that your invoice from @Order.OrderDate@ is available for payment.\nYou can securely view, download, and pay your invoice online through the Customer Portal.\nLog in here:\nhttps://portal.dynamicmediamusic.com\nUsername:\n@Contact.Email@\nIf it\u2019s your first time logging in, please use this temporary password:\n@Customer.CustomerID@\nOnce logged in:\nSelect My Account\nChoose Pay beside your invoice\nComplete your payment\nIf you'd rather make a payment over the phone, give us a call.\nCall us anytime Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214.\nThank you,\nBilling Team at Dynamic Media",
+      "charCount": 627,
+      "lineCount": 17
+    },
+    "InvRem2": {
+      "key": "InvRem2",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\InvRem2.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nThis is a reminder that your invoice from @Order.OrderDate@ is available for payment.\nYou can quickly view, download, or pay your invoice through the Customer Portal.\nhttps://portal.dynamicmediamusic.com\nUsername:\n@Contact.Email@\nIf it\u2019s your first time logging in, please use this temporary password:\n@Customer.CustomerID@\nAfter logging in:\nOpen My Account\nSelect Pay\nComplete your payment\nNeed assistance?\nCall us anytime Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214.\nThank you,\nBilling Team at Dynamic Media",
+      "charCount": 533,
+      "lineCount": 16
+    },
+    "MsgDemoWlc": {
+      "key": "MsgDemoWlc",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\MsgDemoWlc.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nWelcome to Dynamic Media! We\u2019re thrilled to work with you.\nAs a new customer you have access to the Dynamic Media Customer Portal, which can be found at http://demo.dynamicmediamusic.com/Portal/.\nYour login information:\nUsername: @DemoUserName@\nTemporary Password: @DemoPassword@\nTake a few minutes to login with the information provided above. The portal gives you access to your account; plus, everything you need to manage messaging for your business.\nWith the portal, you can:\nUpload new messages\nBuild message schedules\nAssign schedules to your player\nIf you have any questions or need assistance getting started, feel free to reach out.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214.\nThank you,\nThe Dynamic Media Team",
+      "charCount": 753,
+      "lineCount": 15
+    },
+    "OrderShip": {
+      "key": "OrderShip",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\OrderShip.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nGood news! Your order (#@OrderNumber@) has shipped. Here\u2019s the tracking number and your order details.\nCarrier: @OrderShippingDetail.Carrier@\nTracking Number: @OrderShippingDetail.TrackingNumber@\nShipping to:\n@ShipTo.SiteName@\n@ShipTo.Name@\n@Shipping.Address@\nIf you have any questions about your shipment, our customer care team is happy to help.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you for choosing Dynamic Media. Enjoy your music!\nThe Dynamic Media Team",
+      "charCount": 564,
+      "lineCount": 12
+    },
+    "PayInvoice": {
+      "key": "PayInvoice",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\PayInvoice.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.Name@,\nYour invoice is ready.\nTo securely review and pay your invoice, simply use the link below.\nReview & Pay Invoice\nPlease note that this payment link is valid for 30 days.\nIf you have any questions about your invoice or need assistance, our team is happy to help.\nPhone: 1-800-684-7050\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you for choosing Dynamic Media.\nBilling Team at Dynamic Media",
+      "charCount": 483,
+      "lineCount": 10
+    },
+    "PayInvText": {
+      "key": "PayInvText",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\PayInvText - SMS.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @FirstName@, your Dynamic Media invoice is ready for payment. Use the secure link here: @Order.PublicKey@",
+      "charCount": 108,
+      "lineCount": 1
+    },
+    "PortPassRes": {
+      "key": "PortPassRes",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\PortPassRes.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nA password reset has been requested for your Dynamic Media Customer Portal account.\nYour temporary login credentials are below:\nUsername: @Contact.EMail@\nTemporary Password: @NewPassword@\nAfter logging in, you can change your password from the account settings.\nIf you didn't request this reset or need assistance accessing your account, please give us a call at 586-978-4214.\nThank you,\nThe Dynamic Media Team",
+      "charCount": 434,
+      "lineCount": 9
+    },
+    "PortWelcome": {
+      "key": "PortWelcome",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\PortWelcome.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nWelcome to Dynamic Media!\nYour Customer Portal is ready and gives you quick access to your account information anytime.\nLog in here:\nhttps://portal.dynamicmediamusic.com\nYour Login Information\nUsername:\n@Contact.EMail@\nTemporary Password:\n@Contact.Password@\nInside the portal you can:\nUpdate your account information\nView and download invoices\nMake payments\nManage your billing information\nIf you have any questions or need help getting started, call us at 586-978-4214. You can also reach us by email at CustomerService@DM-US.com.\nThank you,\nThe Dynamic Media Team",
+      "charCount": 589,
+      "lineCount": 18
+    },
+    "PrtDlrPR": {
+      "key": "PrtDlrPR",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\PrtDlrPR.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nA password reset has been requested for your account.\nYour temporary login information:\nUsername: @Contact.EMail@\nTemporary Password: @NewPassword@\nAfter signing in, we recommend updating your password from your account settings.\nNeed assistance?\nCall us at 586-978-4214.\nThank you,\nDynamic Media",
+      "charCount": 320,
+      "lineCount": 10
+    },
+    "PrtDlrWlc": {
+      "key": "PrtDlrWlc",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\PrtDlrWlc.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nWelcome!\nYour Dynamic Media Customer Portal is now ready to use.\nLog in here:\nhttps://portal.dynamicmediamusic.com\nLogin Information\nUsername:\n@Contact.EMail@\nTemporary Password:\n@Contact.Password@\nThe portal allows you to:\nUpdate account information\nView invoices\nDownload invoices\nMake payments\nQuestions?\n586-978-4214\nCustomerService@DM-US.com\nThank you for choosing Dynamic Media.",
+      "charCount": 408,
+      "lineCount": 19
+    },
+    "PSAVFDBKCONF": {
+      "key": "PSAVFDBKCONF",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\PSAVFDBKCONF.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @ContactFirstName@,\nThank you for taking the time to submit feedback about the Dynamic Media Portal.\nYour feedback helps us improve the tools and experience we provide to all of our customers. No further action is necessary.\nOur Portal Experience Team will review your comments and may reach out if necessary.\nIf you need immediate assistance with your account or technical support, our customer care team is here to help.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you for choosing Dynamic Media.\nThe Dynamic Media Team",
+      "charCount": 600,
+      "lineCount": 8
+    },
+    "PSAVSUBWARN": {
+      "key": "PSAVSUBWARN",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Encore\\PSAVSUBWARN.docx",
+      "folder": "Encore",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @FirstName@,\nThis is a friendly reminder that the music subscription below is scheduled to end soon.\nSubscription Details\nLocation\n@SiteNames@\nZone\n@ServiceDescription@\nScheduled End Date\n@ServiceEndDate@\nTo keep your music playing without interruption:\nLog in to the Music Portal.\nSelect your location.\nChoose Manage Subscription.\nClick Change Service End Date.\nSave your changes.\nLog In to the Music Portal\nQuestions?\nencore@dm-us.com\nThank you!",
+      "charCount": 450,
+      "lineCount": 19
+    },
+    "REACTDEMO": {
+      "key": "REACTDEMO",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\REACTDEMO.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @FirstName@,\nYour SiriusXM Business free trial is now active!\nHere are your login credentials:\nUsername:\n@RadioIDNum@\nPassword:\n@RadioPassword@\nTrial Ends:\n@DemoEndDate@\nHere are a few things you can do today with your trial:\nListen from your computer\nListen from your mobile device\nBrowse the full channel lineup\nIf you have any questions during your trial, we're here to help. Feel free to reach out to me anytime, or by contacting customer service at 586-978-4214.\nBest,\n@SalesPersonName@",
+      "charCount": 494,
+      "lineCount": 16
+    },
+    "RecACHRej": {
+      "key": "RecACHRej",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\RecACHRej.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nWe were unable to process the ACH payment associated with your account.\nTo help prevent any interruption to your music service, please update your payment information as soon as possible.\nCustomer Portal\nhttps://portal.dynamicmediamusic.com\nUsername\n@Contact.Email@\nFirst time logging in? Use your temporary password\n@Customer.CustomerID@\nYou can access your invoice (#@OrderInfo.OrderNumber@) below.\nDownload Invoice\nNeed assistance? We\u2019re here to help.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team",
+      "charCount": 626,
+      "lineCount": 15
+    },
+    "RecCCApp": {
+      "key": "RecCCApp",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\RecCCApp.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nThank you! We've successfully processed your most recent payment.\nIf you'd like to review the transaction, you can download your invoice below.\nDownload Invoice\nInvoice Number:\n@OrderInfo.OrderNumber@\nYou can also log into the Customer Portal anytime to review your billing history.\nhttps://portal.dynamicmediamusic.com\nUsername:\n@Contact.Email@\nFirst-time login password:\n@Customer.CustomerID@\nForgot your password?\nhttps://portal.dynamicmediamusic.com/Account/Reset\nNeed assistance? We\u2019re here to help.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team",
+      "charCount": 676,
+      "lineCount": 18
+    },
+    "REJECTDEMO": {
+      "key": "REJECTDEMO",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\REJECTDEMO.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @FirstName@,\nThank you for your interest in trying SiriusXM Business.\nUnfortunately, we weren't able to approve your free trial because some of the information submitted couldn't be verified.\nBefore submitting another request, please make sure:\nThe request is for a legitimate business.\nThe business name, phone number, and email address are accurate.\nThe business hasn't already received a free trial.\nOnce you've updated your information, you're welcome to submit a new request.\nIf you have any questions or believe this was an error, our team is happy to help.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team",
+      "charCount": 714,
+      "lineCount": 12
+    },
+    "SATSENDCRED": {
+      "key": "SATSENDCRED",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SATSENDCRED.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nWelcome to SiriusXM Business!\nYour satellite radio service is now active and ready to use at the location below.\nLocation\n@Site.Name@ (@Site.ClientKey@)\n@Site.Address.Address1@\n@Site.Address.City@, @Site.Address.State@ @Site.Address.Zip@\n@Site.Address.CountryID@\nRadio ID: @RadioIDNum@\nHelpful Resources\nHardware Setup & Troubleshooting\nChannel Guide\nIf you have any questions or need help getting started, our team is here to help.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team",
+      "charCount": 604,
+      "lineCount": 16
+    },
+    "SENDCRED": {
+      "key": "SENDCRED",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SENDCRED.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nGreat news! Your SiriusXM Business streaming service is now active.\nService Location\n@Site.Name@ (@Site.ClientKey@)\n@Site.Address.Address1@\n@Site.Address.City@, @Site.Address.State@ @Site.Address.Zip@\n@Site.Address.CountryID@\nLogin Credentials\nUsername\n@RadioIDNum@\nPassword\n@RadioPassword@\nGetting Started\nHardware Setup & Troubleshooting\nChannel Guide\nNeed assistance? We\u2019re here to help.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team",
+      "charCount": 562,
+      "lineCount": 19
+    },
+    "SENDREBATE": {
+      "key": "SENDREBATE",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SENDREBATE.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @ContactFirstName@,\nAttached is the rebate information for your @PartName@ purchased on @OrderDate@ (Order #@OrderNumber@).\nIf you have any questions about completing your rebate or need any assistance, don't hesitate to reach out.\nThank you,\n@SalesPersonFirstName@\n@SalesPersonName@\n@Position@\n@DID@",
+      "charCount": 303,
+      "lineCount": 8
+    },
+    "SENDWRNTY": {
+      "key": "SENDWRNTY",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SENDWRNTY.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @ContactFirstName@,\nThank you for your recent purchase.\nTo activate your warranty, please complete the online warranty form using the information below.\nWarranty Registration\nVisit:\nOnline Warranty Form\nWeb Code\n@RMANumber@\nComplete the form and submit it when finished.\nIf you have any questions, I'm happy to help.\nThanks,\n@SalesPersonFirstName@\n@SalesPersonName@\n@SalesPersonPosition@\n800-684-7050 x@SalesPersonExtension@",
+      "charCount": 427,
+      "lineCount": 15
+    },
+    "SndDlrOnSgn": {
+      "key": "SndDlrOnSgn",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SndDlrOnSgn.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello,\nYour SiriusXM Business Signup Link has Arrived!\nHi @ContactCustomerRec.FirstName@,\nOn behalf of @DealerRec.Name@, we thank you for your interest in SiriusXM Music for your Business!\nFollow these steps to get started:\n1. Go to our online portal\n2. Enter Your Web Code \u2013 @AgreementArchive.WebCode@\n3. Follow the online wizard\n\nFeel free to contact our SiriusXM Business Team with any questions.\n\nThanks again!\n@DealerSalesRep.Name@\nDealer Sales Representative\nSiriusXM Dealer Sales Team | Dynamic Media\n@DM.DealerRep.DID@ (o)\n@DM.DealerRep.Email@",
+      "charCount": 551,
+      "lineCount": 17
+    },
+    "SndOnSgn": {
+      "key": "SndOnSgn",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SndOnSgn.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @ContactFirstName@,\nAs discussed, your online agreement is ready.\nTo complete your order:\nVisit:\nhttps://portal.dm-us.com/onlinesign/\nEnter your Web Code:\n@AgreementArchive.WebCode@\nFollow the prompts to complete your agreement.\nIf you have any questions during the process, feel free to reach out.\nThank you\u2014we appreciate your business!\n@SalesPeople.SalesPersonName-First@\n@SalesPeople.SalesPersonName@",
+      "charCount": 406,
+      "lineCount": 12
+    },
+    "SNDPARTLINKS": {
+      "key": "SNDPARTLINKS",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SNDPARTLINKS.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.Name@,\nAs discussed, we've included the support resources for your @PartName@ below.\n@PartsList@\nIf you need additional help, be sure to visit our Help Center for setup guides, videos, FAQs, and troubleshooting resources.\nNeed assistance? We\u2019re here to help.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team",
+      "charCount": 418,
+      "lineCount": 8
+    },
+    "SndPrpsl": {
+      "key": "SndPrpsl",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SndPrpsl.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @ContactFirstName@,\nAttached is the proposal we discussed.\nPlease take a look when you have a chance, and let me know if you have any questions or would like to review any part of it together.\nI look forward to hearing your thoughts.\nThank you,\n@SalesPeople.SalesPersonName-First@\n@SalesPeople.SalesPersonName@",
+      "charCount": 313,
+      "lineCount": 7
+    },
+    "SURVEYINV": {
+      "key": "SURVEYINV",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SURVEYINV.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @ContactFirstName@,\nWe've created a @SurveyTitle@ for you.\nYour feedback helps us continue improving our products and customer experience.\nTo complete the survey, simply click the link below:\n@Domain@?SurveyCode=@SurveyCode@\nIf you have any questions or need assistance, we're happy to help.\nThank you!\n@SalesPersonName@\n@SalesPersonPosition@",
+      "charCount": 345,
+      "lineCount": 9
+    },
+    "SYBACT": {
+      "key": "SYBACT",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SYBACT.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nThank you for choosing Soundtrack Your Brand! Your music service is now active and ready to use.\nAccess your account here: www.soundtrackyourbrand.com/login/\nYour Locations\n@strSiteInfo@\nPairing Information: Use the following pairing code or device ID to pair your subscription to your player in the Soundtrack Portal.\n@Pairing Code/DeviceID@\nSetup Info\nHardware - Choose from the physical devices below for setup and use instructions\nPlayerOne Music Player\nSoundtrack 3.0 Player\nSonos\nApp-based Players - Choose your platform for setup and use instructions\niOS Player\nAndroid\nWindows\nMusic Selection & Programming\nReview Ready-Made Playlists: Browse by category or use the search field to find playlists that fits your business.\nUsing a Spotify Playlist: Import a Spotify playlist to create a unique learning experience.\nCreate a Schedule: Blend playlists and set up automatic playlist programming based on time of day and day of the week.\nNeed assistance? We\u2019re here to help.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team",
+      "charCount": 1149,
+      "lineCount": 24
+    },
+    "SYBDACTRYL": {
+      "key": "SYBDACTRYL",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SYBDACTRYL.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @FirstName@,\nThank you for requesting a Soundtrack Your Brand free trial.\nUnfortunately, we couldn't approve your request because some of the information submitted couldn't be verified.\nBefore submitting another request, please confirm:\nThe request is for a legitimate business.\nThe business information is accurate.\nThe business hasn't previously received a free trial.\nOnce updated, you're welcome to submit another request.\nNeed assistance? We\u2019re here to help.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team",
+      "charCount": 614,
+      "lineCount": 12
+    },
+    "SYBFREETRYL": {
+      "key": "SYBFREETRYL",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SYBFREETRYL.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nWelcome! Your Soundtrack trial is now active and ready to use. Here is your pairing code to access your account.\nPairing Code: @PairingCode@\nLogin here: www.soundtrackyourbrand.com/login/\nYou'll also receive an invitation from the Soundtrack Your Brand portal. If you don't receive it, please let us know.\nHelpful Resources\niOS\nAndroid\nWindows\nYou can also explore:\nReady-made playlists\nSpotify playlist imports\nMusic scheduling\nIf you need anything, we're here to help. Call us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nEnjoy your free trial!\nThe Dynamic Media Team",
+      "charCount": 654,
+      "lineCount": 16
+    },
+    "UpdateCC": {
+      "key": "UpdateCC",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\UpdateCC.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.Name@,\nThe credit card we have on file for your account is scheduled to expire in @BillingGroup.Month@/@BillingGroup.Year@.\nTo avoid any interruption to your music service, please update your payment information using the secure link below.\nUpdate Payment Information\nThis secure link is valid for 30 days.\nPhone: 1-800-684-7050\nNeed assistance? We\u2019re here to help.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team",
+      "charCount": 525,
+      "lineCount": 10
+    },
+    "ACTDEMO": {
+      "key": "ACTDEMO",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\ACTDEMO.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @FirstName@,\nWelcome! Your SiriusXM Business free trial is now active and ready to use.\nHere are your login credentials:\nUsername: @RadioIDNum@\nPassword: @RadioPassword@\nYou will have unlimited access to SiriusXM for business until @DemoEndDate@.\nIf you have any questions or need help getting started, we're here for you. Feel free to check out our help center for quick set up guides.\n[Help Center]\nhttps://help.dynamicmediamusic.com/\nThank you and enjoy the music!\n@SalesPersonName@\n@SalesPersonEmail@\n@SalesPersonPhone@",
+      "charCount": 526,
+      "lineCount": 13
+    },
+    "CCDenRem1": {
+      "key": "CCDenRem1",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\CCDenRem1.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nWe weren't able to process the credit or debit card we have on file for your account.\nTo avoid any interruption to your music service, please update your payment information at your earliest convenience.\nUpdate your payment information\nLog in to the Customer Portal:\nhttps://portal.dynamicmediamusic.com\nUsername:\n@Contact.Email@\nFirst time logging in? Your temporary password is your Customer ID (@Customer.CustomerID@).\nOnce logged in:\nSelect Billing Details\nChoose @BillingGroup.Name@\nUpdate your payment method\nVisit Invoices\nSelect Pay\nClick Charge this Card ($@Order.Total@)\nNeed help?\nCall our Customer Support team at 586-978-4214\nMonday\u2013Friday | 9:00 AM\u20136:00 PM ET\nThank you,\nBilling Team at Dynamic Media",
+      "charCount": 738,
+      "lineCount": 21
+    },
+    "CCDenRem2": {
+      "key": "CCDenRem2",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\CCDenRem2.docx",
+      "folder": "Customers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nWe're reaching out again because we were still unable to process the payment method on your account.\nTo avoid an interruption in your music service and a $15 reactivation fee, please update your payment information as soon as possible.\nIf payment isn't received, your service is scheduled to deactivate on @DeactDate@.\nHow to update your payment method:\nGo to https://portal.dynamicmediamusic.com\nFrom there:\nOpen Billing Details\nSelect @BillingGroup.Name@\nUpdate your payment method\nGo to Invoices\nSelect Pay\nClick Charge this Card ($@Order.Total@)\nNeed help?\nCall our Customer Support team at 586-978-4214\nMonday\u2013Friday | 9:00 AM\u20136:00 PM ET\nThank you,\nBilling Team at Dynamic Media",
+      "charCount": 707,
+      "lineCount": 18
+    },
+    "PSAVNEWSITE": {
+      "key": "PSAVNEWSITE",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Encore\\PSAVNEWSITE.docx",
+      "folder": "Encore",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @FirstName@,\nYou've been added as the primary music contact for the location below.\nYou now have full access to manage music for this location through the Dynamic Media Music Portal.\nNew Location\n@SiteDetails@\nLog In to the Music Portal\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team",
+      "charCount": 387,
+      "lineCount": 9
+    },
+    "PSAVNEWUSER": {
+      "key": "PSAVNEWUSER",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Encore\\PSAVNEWUSER.docx",
+      "folder": "Encore",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @FirstName@,\nYou've been invited to the Dynamic Media Music Portal.\nThis is where you'll manage the music for your assigned location(s).\nAccount Details\nLocation(s):\n@SiteNames@\nUsername:\n@Username@\nPassword:\n@Password@\nLog In Here\nOnce you're logged in, you'll be able to manage your music and settings for your location.\nNeed assistance? We\u2019re here to help.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team",
+      "charCount": 510,
+      "lineCount": 16
+    },
+    "PSAVSUBENDED": {
+      "key": "PSAVSUBENDED",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Encore\\PSAVSUBENDED.docx",
+      "folder": "Encore",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @FirstName@,\nThe music subscription for the location below has ended and is no longer active.\nSubscription Details\nLocation\n@SiteNames@\nZone\n@ServiceDescription@\nEnd Date\n@ServiceEndDate@\nIf you'd like to restart this subscription:\nLog in to the Dynamic Media Music Portal.\nSelect your location.\nChoose Manage Subscription.\nClick Reactivate Subscription.\nEnter a new service start date.\nLog In to the Music Portal\nencore@dm-us.com\nNeed assistance? We\u2019re here to help.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team",
+      "charCount": 618,
+      "lineCount": 21
+    },
+    "PSAVSVCACTN": {
+      "key": "PSAVSVCACTN",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Encore\\PSAVSVCACTN.docx",
+      "folder": "Encore",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @FirstName@,\nThis email confirms the @RequestTypeLowercase@ you recently scheduled in the Dynamic Media Music Portal.\nRequest Details\nLocation:\n@SiteDetails@\nSubscription Type:\n@SubscriptionType@\nPairing Code:\n@PairingCode@\nStart Date:\n@ServiceStartDate@\nEnd Date:\n@ServiceEndDate@\nNeed to make changes?\nLog into the Music Portal anytime.\nQuestions?\nencore@dm-us.com\nNeed assistance? We\u2019re here to help.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team",
+      "charCount": 554,
+      "lineCount": 21
+    },
+    "PSAVUSERFAIL": {
+      "key": "PSAVUSERFAIL",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Encore\\PSAVUSERFAIL.docx",
+      "folder": "Encore",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @FirstName@,\nWe wanted to let you know that the user below has not yet accepted their invitation to the Dynamic Media Music Portal.\nDespite multiple reminder emails over the past 28 days, they have not logged in.\nUser Information\nUser\n@UserFirstLast@\nEmail\n@UserEmail@\nLocation\n@SiteNames@\nIf this person should continue managing music for this location, we recommend following up with them directly or inviting another contact.\nThank you,\nDynamic Media Music Portal",
+      "charCount": 469,
+      "lineCount": 13
+    },
+    "PSAVUSERREM1": {
+      "key": "PSAVUSERREM1",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Encore\\PSAVUSERREM1.docx",
+      "folder": "Encore",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @FirstName@,\nWelcome!\nYour Dynamic Media Music Portal is ready, but it looks like you haven't logged in yet.\nOnce you activate your account, you'll be able to manage music for your location anytime.\nLogin Information\nLocation\n@SiteNames@\nUsername\n@Username@\nPassword\n@Password@\nLog In to the Music Portal\nQuestions?\nencore@dm-us.com\nNeed assistance? We\u2019re here to help.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team",
+      "charCount": 520,
+      "lineCount": 18
+    },
+    "PSAVUSERREM2": {
+      "key": "PSAVUSERREM2",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Encore\\PSAVUSERREM2.docx",
+      "folder": "Encore",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @FirstName@,\nJust a friendly reminder\u2014we noticed you haven't logged into the Dynamic Media Music Portal yet.\nYour portal allows you to manage music for your location whenever you need to.\nLogin Information\nLocation\n@SiteNames@\nUsername\n@Username@\nPassword\n@Password@\nLog In to the Music Portal\nNeed help?\nencore@dm-us.com\nNeed assistance? We\u2019re here to help.\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team",
+      "charCount": 509,
+      "lineCount": 17
+    },
+    "PSAVUSERREM3": {
+      "key": "PSAVUSERREM3",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Encore\\PSAVUSERREM3.docx",
+      "folder": "Encore",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @FirstName@,\nThis is your final reminder to activate your Dynamic Media Music Portal account.\nLogging in gives you access to manage music for your location whenever you need it.\nLogin Information\nLocation\n@SiteNames@\nUsername\n@Username@\nPassword\n@Password@\nLog In to the Music Portal\nIf you're having trouble logging in or believe you received this email by mistake, please let us know.\nencore@dm-us.com\nCall us Monday\u2013Friday, 9 AM\u20136 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team",
+      "charCount": 554,
+      "lineCount": 16
+    },
+    "AEPayNotify": {
+      "key": "AEPayNotify",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\AEPayNotify.docx",
+      "folder": "Internal",
+      "versionUsed": null,
+      "subjectHint": "@Customer.Name@ Payment Notification",
+      "body": "Payment Notification\nCustomer: @Customer.Name@\nOrder #: @Order.Number@\n\nPaid Amount: $ @Payment.Amount@\nBalance Due: $ @Order.Balance@",
+      "charCount": 134,
+      "lineCount": 11
+    },
+    "BIGCUSTTASK": {
+      "key": "BIGCUSTTASK",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\BIGCUSTTASK.docx",
+      "folder": "Internal",
+      "versionUsed": null,
+      "subjectHint": "[DM Ticket] # @TicketID@ -- @StatusText@ -- @CustomerName@ @Subject@",
+      "body": "Hello,\n@parentTCInfo.ClassificationName@ -- @childTCInfo.ClassificationName@\nStatus: @StatusText@\nCustomer: @CustomerName@ (@CustomerID@)\nDescription\n@Description@",
+      "charCount": 163,
+      "lineCount": 11
+    },
+    "CCREFUNDERR": {
+      "key": "CCREFUNDERR",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\CCREFUNDERR.docx",
+      "folder": "Internal",
+      "versionUsed": null,
+      "subjectHint": "CC Partial Refund Error for OrderID: @Order.OrderID@",
+      "body": "Hello,\nThere was an attempt to refund a credit card transaction but it appears to have failed. The details are listed below:\n\nCustomer: @Customer.Name@ (@Customer.CustomerID@)\nOrderID: @Order.OrderID@\n\nCRM Actual Refund: $@Order.OriginalRefundAmount@\nActual Base Commerce Refund: $@Order.ActualRefundAmount@\n\nPlease contact the IT department if you have any questions.",
+      "charCount": 368,
+      "lineCount": 15
+    },
+    "DEACTDMX": {
+      "key": "DEACTDMX",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\DEACTDMX.docx",
+      "folder": "Internal",
+      "versionUsed": 1,
+      "subjectHint": null,
+      "body": "Please terminate this account. Please respond to confirm this.\n\nBusiness Name: @Customer.Name@\n\nDevice ID: @Radio.RadioIDNum@\n\nReason for Termination: non-payment",
+      "charCount": 162,
+      "lineCount": 7
+    },
+    "DEACTPLAY": {
+      "key": "DEACTPLAY",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\DEACTPLAY.docx",
+      "folder": "Internal",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello,\nPlease terminate this account. Please respond to confirm this.\nBusiness Name: @Customer.Name@\nDevice ID: @Radio.RadioIDNum@\nReason for Termination: non-payment\nThank you,\nThe Dynamic Media Team",
+      "charCount": 200,
+      "lineCount": 7
+    },
+    "DLRSGNCMPLT": {
+      "key": "DLRSGNCMPLT",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\DLRSGNCMPLT.docx",
+      "folder": "Internal",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @FirstName@,\n@Customer@ has completed the Dealer Signup process. The associated Dealer Review Manager task (@TaskID@) is assigned to you; please complete any remaining follow up steps at your earliest convenience.\nThank You,\n@SendFromName@\n@SendFromTitle@",
+      "charCount": 258,
+      "lineCount": 5
+    },
+    "DMPSSFUM": {
+      "key": "DMPSSFUM",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\DMPSSFUM.docx",
+      "folder": "Internal",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @SalesPersonFirstName@,\n@CustomerName@ placed an order (#@OrderID@) on the @Channel@ within the past 24 hours. A Store Follow Up Manager task has been created for you. Please follow up at your earliest convenience.\nThank you,\n@SendFromName@\n@SendFromTitle@",
+      "charCount": 259,
+      "lineCount": 5
+    },
+    "LDINSRTASGN": {
+      "key": "LDINSRTASGN",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\LDINSRTASGN.docx",
+      "folder": "Internal",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello,\nA new lead has been created into the CRM. The lead and link are below.\nLead Type: @SxmWebLeadType.Type@\nLead Link: @CRM.TaskLink@\n@ProvStore.PageAbandonedOn@ @ProvStore.DateAbandonedOn@ @DateInitiated@ Customer Name: @Customer.Name@\nContact: @Contact.FirstName@ @Contact.LastName@\nPhone: @Customer.Phone1@\nEmail: @Contact.EMail@\n@UserAgent.CDPTemplateData@\nThank you,\nDynamic Media\n- - - - -\nFor questions, concerns, or suggestions regarding this email please contact the Dev Team.",
+      "charCount": 488,
+      "lineCount": 13
+    },
+    "NEWJOBENTRY": {
+      "key": "NEWJOBENTRY",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\NEWJOBENTRY.docx",
+      "folder": "Internal",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello,\nThis is a notification to inform you that a new Job has been entered into the system. Details are below:\nJobID: @Job.JobID@\nCustomer: @Customer.Name@ - (@Customer.CustomerID)\nOrderID: @Order.OrderID@\nIf you have any questions or concerns regarding this email, please feel free to let us know.\n-Dynamic Media Development Team",
+      "charCount": 331,
+      "lineCount": 7
+    },
+    "NOTFYNEWRENO": {
+      "key": "NOTFYNEWRENO",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\NOTFYNEWRENO - TH.docx",
+      "folder": "Internal",
+      "versionUsed": null,
+      "subjectHint": "@Subject@",
+      "body": "Tim Hortons Service\nPurchase and Pairing Code\nDear Couture Media - The following customer has purchased the Soundtrack Music Service. Please review their details below:\n\n@ServiceInfo@\nPlease reach out to the customer as needed to ensure a smooth service activation.",
+      "charCount": 265,
+      "lineCount": 11
+    },
+    "NOTIFYDEMO": {
+      "key": "NOTIFYDEMO",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\NOTIFYDEMO.docx",
+      "folder": "Internal",
+      "versionUsed": 1,
+      "subjectHint": null,
+      "body": "Hello,\nA free trial account has been created for the following lead:\nBusiness Name: @CustomerName@\nContact Name: @ContactName@\nEmail Address: @ContactEmail@\nPhone Number: @ContactPhone@\n\nThe free trial will expire the morning of @DemoEndDate@.",
+      "charCount": 243,
+      "lineCount": 8
+    },
+    "PSAVFDBKSBMT": {
+      "key": "PSAVFDBKSBMT",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\PSAVFDBKSBMT - Encore.docx",
+      "folder": "Internal",
+      "versionUsed": null,
+      "subjectHint": "@Category@ from Portal Feedback Form",
+      "body": "Name: @ContactName@\nEmail: @ContactEmail@\nPhone: @ContactPhone1@\n\nCategory: @Category@\n\nFeedback:\n@Text@",
+      "charCount": 104,
+      "lineCount": 13
+    },
+    "SPNOTIFY": {
+      "key": "SPNOTIFY",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\SPNOTIFY - TH.docx",
+      "folder": "Internal",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "The following Tim Hortons location has enrolled in the Soundtrack Music Service and requested assistance with installation or audio system setup.\nPlease contact the location below to coordinate support.\n@Heading@\nContact Information\n@Contact.Name@\n@Contact.Address1@\n@Contact.Address2@\n@Contact.City@, @Contact.State@ @Contact.Zip@\n@Contact.Phone1@\n@Contact.Email@\nInstallation Location\n@Site.Name@\nStore #: @Site.ClientKey@\n@Site.Address1@\n@Site.Address2@\n@Site.City@, @Site.State@ @Site.Zip@\nThank you.",
+      "charCount": 504,
+      "lineCount": 17
+    },
+    "SURVEYCMPLT": {
+      "key": "SURVEYCMPLT",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\SURVEYCMPLT.docx",
+      "folder": "Internal",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @FirstName@,\n@RespondentName@ has completed the survey, @SurveyTitle@. The associated Survey Manager task (@TaskID@) is assigned to you; please complete any remaining follow up steps at your earliest convenience.\nThank You,\n@SendFromName@\n@SendFromTitle@",
+      "charCount": 257,
+      "lineCount": 5
+    },
+    "SXMSVCERROR": {
+      "key": "SXMSVCERROR",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\SXMSVCERROR.docx",
+      "folder": "Internal",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "An attempt to @SXMSvcLog.ActOrTerm@ the following SiriusXM service was unsuccessful.\nAccount Details\nCustomer:\n@Customer.Name@ (@Customer.CustomerID@)\nRadio ID:\n@Radio.RadioIDNum@\nUsername:\n@Service.RadioIDNum@\nPassword:\n@Radio.RadioPassword@\nError Details\nCode\n@SXMSvcLog.ResponseCode@\nMessage\n@SXMSvcLog.ResponseText@\nIf the issue is related to password requirements, update the password to include:\nAt least 8 characters\nOne uppercase letter\nOne lowercase letter\nOne number\n@Task@\nPlease contact IT if additional assistance is needed.",
+      "charCount": 537,
+      "lineCount": 22
+    },
+    "SYBCTNOTIFY": {
+      "key": "SYBCTNOTIFY",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\SYBCTNOTIFY.docx",
+      "folder": "Internal",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello @SalesPersonInfo.SalesPersonName@,\nA Soundtrack Conversion Task has been created for the following Customer\nConversion Task [Link]\nThank you,\nThe Dynamic Media Team",
+      "charCount": 170,
+      "lineCount": 5
+    },
+    "SYBFT2PAID": {
+      "key": "SYBFT2PAID",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\SYBFT2PAID.docx",
+      "folder": "Internal",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Please convert the following Soundtrack Your Brand trial account to a paid subscription.\nCustomer\n@Customer.Name@\nCustomer ID:\n@Customer.CustomerID@\nActivation Date:\n@ActivationDate@\nSubscription URL:\n@SYBURLText@\nThank you.",
+      "charCount": 224,
+      "lineCount": 10
+    },
+    "SYBNOTDEMO": {
+      "key": "SYBNOTDEMO",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\SYBNOTDEMO.docx",
+      "folder": "Internal",
+      "versionUsed": null,
+      "subjectHint": "Free Trial Notification - Account Created",
+      "body": "Hello,\n\nA free trial account has been created for the following lead:\n\nBusiness Name: @CustomerName@\nContact Name: @ContactName@\nEmail Address: @ContactEmail@\nPhone Number: @ContactPhone@\n\nThe free trial will expire the morning of @DemoEndDate@.",
+      "charCount": 245,
+      "lineCount": 15
+    },
+    "SYBNOTIFY": {
+      "key": "SYBNOTIFY",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\SYBNOTIFY.docx",
+      "folder": "Internal",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello @SalesPersonInfo.SalesPersonName@,\nA new Soundtrack Your Brand free trial activation task has been created.\nPlease review the assigned customer and complete the activation process.\nThank you.",
+      "charCount": 197,
+      "lineCount": 4
+    },
+    "SYBSVCERROR": {
+      "key": "SYBSVCERROR",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\SYBSVCERROR.docx",
+      "folder": "Internal",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello,\nErrors have occurred while attempting to @SYBSvcLog.ActOrTerm@. The details are listed below:\nCustomer: @Customer.Name@ (@Customer.CustomerID@)\nRadioID: @Radio.RadioIDNum@\nError: @SYBSvcLog.Error@\n@Task@\nPlease contact the IT department if you have any questions.\nThank you,\nThe Dynamic Media Team",
+      "charCount": 304,
+      "lineCount": 9
+    },
+    "TASKASSIGN": {
+      "key": "TASKASSIGN",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\TASKASSIGN.docx",
+      "folder": "Internal",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @SalesPeople.SalesPersonName-First@,\n@CustomerName@ placed an order (#@OrderID@) on the @Channel@ within the past 24 hours. A @TaskTypeTitle@ Task has been created for you. Please follow up at your earliest convenience.\nThank you,\nThe Dynamic Media Team",
+      "charCount": 256,
+      "lineCount": 4
+    },
+    "TASKREASSIGN": {
+      "key": "TASKREASSIGN",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\TASKREASSIGN.docx",
+      "folder": "Internal",
+      "versionUsed": null,
+      "subjectHint": "[Alert] New Assigned Task",
+      "body": "Hi @SalesPeople.SalesPersonName-First@,\n\nA @TaskTypeTitle@ Task has been reassigned to you. Please follow up at your earliest convenience.\n\nThank you!",
+      "charCount": 150,
+      "lineCount": 10
+    },
+    "TSKCONFLICT": {
+      "key": "TSKCONFLICT",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\TSKCONFLICT.docx",
+      "folder": "Internal",
+      "versionUsed": null,
+      "subjectHint": "Task Conflict Found with CustID (@Customer.CustomerID@)",
+      "body": "Customer Service,\n\nA conflicting Accounts Receivable task has been detected for \"@Customer.Name@\" (@Customer.CustomerID@) - Billing Group \"@BillingGroup.Name@\" (@BillingGroup.BillingGroupID@). This conflict could indicate one of three possibilities:\n\n    1) There is an open AR task, yet an order tied to it has been paid\n    2) There is a closed AR task, yet an order tied to it has a balance\n    3) There is a new order with a balance, but no new AR task\n\nPlease investigate and feel free to ask the IT team any questions you may have.\n\nThank you,\n-Reminder Mailer",
+      "charCount": 566,
+      "lineCount": 17
+    },
+    "XMSTORABAND": {
+      "key": "XMSTORABAND",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\XMSTORABAND.docx",
+      "folder": "Internal",
+      "versionUsed": null,
+      "subjectHint": "Potentially abandoned lead in @Source@ has been assigned to you",
+      "body": "Hello,\n\nA new lead appears to have been abandoned in the @Source@. Based on our data, the user most recently got up to @LeadAnalysis.StageName@. Below is the information we know of...\n\nLead Link: @CRM.TaskLink@\nSubmitted: @DateAbandoned@\n\nCustomer Name: @Customer.Name@\nContact: @Contact.FirstName@ @Contact.LastName@\nPhone: @Customer.Phone1@\nEmail: @Contact.EMail@\n\nFor any questions or concerns regarding this email or the generated lead, please feel free to forward this email along with your question/concern to your friendly Dynamic Media development team!\n\n-Lead Inserter",
+      "charCount": 577,
+      "lineCount": 20
+    },
+    "ACTSXM": {
+      "key": "ACTSXM",
+      "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\ACTSXM.docx",
+      "folder": "TechniciansDealers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello,\nThis SiriusXM Satellite Radio Activation is being made by:\nNational Telecom Deployments (NTD) / Dynamic Media Account Number 1052377144\nCompany Contact: @PrimaryContact.FullName@\nCompany Name: @Customer.Name@\nAddress 1: @Customer.Ship.Address1@\nAddress 2: @Customer.Ship.City@, @Customer.Ship.State@ @Customer.Ship.Zip@\nPhone Number: @PrimaryContact.Phone1@\nPersonal ID: @Customer.CustomerID@\nIndustry: @Site.Industry@\nThis is a Satellite Radio Activation.\nESN: @Radio.RadioIDNum@\nSubscription Type: @BlockXL.Restricted@, Monthly\nThank you,\nThe Dynamic Media Team",
+      "charCount": 570,
+      "lineCount": 15
+    },
+    "BXSWPSXM": {
+      "key": "BXSWPSXM",
+      "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\BXSWPSXM.docx",
+      "folder": "TechniciansDealers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello,\nThis SiriusXM Satellite Radio Receiver Swap is being made by:\nNational Telecom Deployments (NTD) / Dynamic Media Account Number 1052377144\nCompany Contact: @PrimaryContact.FullName@\nCompany Name: @Customer.Name@\nAddress 1: @Customer.Ship.Address1@\nAddress 2: @Customer.Ship.City@, @Customer.Ship.State@ @Customer.Ship.Zip@\nPhone Number: @PrimaryContact.Phone1@\nPersonal ID: @Customer.CustomerID@\nIndustry: @Site.Industry@\nThis is a Satellite Radio Receiver Swap.\nOld ESN: @Radio.RadioIDNumOld@\nNew ESN: @Radio.RadioIDNumNew@\nSubscription Type: @BlockXL.Restricted@, Monthly\nThank you,\nThe Dynamic Media Team",
+      "charCount": 614,
+      "lineCount": 16
+    },
+    "DEACTSXIR": {
+      "key": "DEACTSXIR",
+      "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\DEACTSXIR.docx",
+      "folder": "TechniciansDealers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello,\nThis SXIR Internet Deactivation is being made by:\n\nNational Telecom Deployments (NTD) / Dynamic Media Account Number 114403782274\n\nCompany Contact: @PrimaryContact.FullName@\n\nCompany Name: @Customer.Name@\n\nAddress 1: @Customer.Ship.Address1@\n\nAddress 2: @Customer.Ship.City@, @Customer.Ship.State@ @Customer.Ship.Zip@\n\nPhone Number: @PrimaryContact.Phone1@\n\nPersonal ID: @Customer.CustomerID@\n\nIndustry: @Site.Industry@\n\nThis is a SXIR Internet Deactivation.\n\nUsername: @Radio.RadioIDNum@\n\nPassword: @Radio.RadioPassword@\n\nSubscription Type: Commercial Internet Radio - 1mo - (DSTR) - w/Actv\nThank you,\nThe Dynamic Media Team",
+      "charCount": 632,
+      "lineCount": 28
+    },
+    "DEACTSXM": {
+      "key": "DEACTSXM",
+      "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\DEACTSXM.docx",
+      "folder": "TechniciansDealers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello,\nThis SiriusXM Satellite Radio Deactivation is being made by:\n\nNational Telecom Deployments (NTD) / Dynamic Media Account Number 1052377144\n\nCompany Contact: @PrimaryContact.FullName@\n\nCompany Name: @Customer.Name@\n\nAddress 1: @Customer.Ship.Address1@\n\nAddress 2: @Customer.Ship.City@, @Customer.Ship.State@ @Customer.Ship.Zip@\n\nPhone Number: @PrimaryContact.Phone1@\n\nPersonal ID: @Customer.CustomerID@\n\nIndustry: @Site.Industry@\n\nThis is a Satellite Deactivation.\n\nSatellite ESN: @Radio.RadioIDNum@\n\nSubscription Type: @BlockXL.Restricted@, Monthly\nThank you,\nThe Dynamic Media Team",
+      "charCount": 589,
+      "lineCount": 26
+    },
+    "DEALERINV": {
+      "key": "DEALERINV",
+      "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\DEALERINV.docx",
+      "folder": "TechniciansDealers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @ContactFirstName@,\nThe dealer registration invitation you requested is enclosed below. Thank you for your interest in becoming a Dynamic Media dealer!\nHow to Register\nComplete your registration online by following these simple steps:\nGo to our online portal at https://portal.dynamicmediamusic.com/DealerSignup/\nEnter Your Web Code \u2013 @WebCode@\nFollow the online wizard\nBe sure to let me know of any questions!\nMy Best,\n@SalesPersonName@\n@Position@\n@DID@",
+      "charCount": 457,
+      "lineCount": 12
+    },
+    "DealerUpdat": {
+      "key": "DealerUpdat",
+      "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\DealerUpdat.docx",
+      "folder": "TechniciansDealers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @ContactFirstName@,\nI wanted to give you an update on your recent referral:\nDealer ID: @Referral.DealerID@\nReferral ID: @Referral.DealerReferralID@\nReferral Status: @TaskStatus.Title@\nPlease let me know if you have any questions,\n@SalesPersonName@\n@Position@\n@DID@",
+      "charCount": 267,
+      "lineCount": 9
+    },
+    "FREETRIAL": {
+      "key": "FREETRIAL",
+      "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\FREETRIAL.docx",
+      "folder": "TechniciansDealers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @ContactFirstName@,\nThis SiriusXM Internet FREE TRIAL Credential request is being made by: National Telecom Deployments (NTD) / Dynamic Media.\n\nThe credentials were not received by Dynamic Media within 24 hours of the initial customer request.\n\nThese are NOT billable credentials to National Telecom Deployments (NTD) / Dynamic Media.\nCompany Contact: @Contact.FirstName@\nCompany Name: @Customer.Name@\nAddress 1: @Customer.Ship.Address1@\nAddress 2: @Customer.Ship.City@, @Customer.Ship.State@ @Customer.Ship.Zip@\nPhone Number: @PrimaryContact.Phone1@\nPersonal ID: @Customer.CustomerID@\nIndustry: @Site.Industry@\nSubscription Type: Internet FREE TRIAL Credentials\nPlease let me know if you have any questions,\n@SalesPersonName@\n@Position@\n@DID@",
+      "charCount": 746,
+      "lineCount": 18
+    },
+    "PrtDlrWlcCM": {
+      "key": "PrtDlrWlcCM",
+      "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\PrtDlrWlcCM.docx",
+      "folder": "TechniciansDealers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @ContactFirstName@,\nCongratulations, you are now a SiriusXM Business Dealer! We\u2019re glad to have you on board. Here\u2019s what you need to get started.\nLogin Into the Portal\nYou now have access to the Dealer Portal. The portal allows you to:\nCreate and send agreements to start service for your customers\nTrack historical and future commission payments\nRefer customers to your dealer representative to set up service (You still get paid!)\nAccess support and sales materials\nClick here to access the Dealer Portal.\nUsername:\t@Contact.EMail@\nPassword:\t@Contact.Password@\n\nHere are a few quick start resources for how to use the portal.\nHow-To Documents\tTutorial Videos\nCreate a New Customer\tCreate a New Customer\nPricing\nDealer Product Price List\n\nI\u2019m here to help! Please reach out if you have any questions.\n@SalesPerson.SalesPersonName@\n1-586-693-@SalesPerson.Extension@",
+      "charCount": 869,
+      "lineCount": 21
+    },
+    "PrtDlrWlcDB": {
+      "key": "PrtDlrWlcDB",
+      "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\PrtDlrWlcDB.docx",
+      "folder": "TechniciansDealers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @ContactFirstName@,\nCongratulations, you are now a SiriusXM Business Dealer! We\u2019re glad to have you on board. Here\u2019s what you need to get started.\nLogin Into the Portal\nYou now have access to the Dealer Portal. The portal allows you to:\nCreate and send agreements to start service for your customers\nTrack historical and future commission payments\nRefer customers to your dealer representative to set up service (You still get paid!)\nAccess support and sales materials\nClick here to access the Dealer Portal.\nUsername:\t@Contact.EMail@\nPassword:\t@Contact.Password@\n\nHere are a few quick start resources for how to use the portal.\nHow-To Documents\tTutorial Videos\nCreate a New Customer\tCreate a New Customer\nPricing\nDealer Product Price List\n\nI\u2019m here to help! Please reach out if you have any questions.\n@SalesPerson.SalesPersonName@\n1-586-693-@SalesPerson.Extension@",
+      "charCount": 869,
+      "lineCount": 21
+    },
+    "REACTSXIR": {
+      "key": "REACTSXIR",
+      "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\REACTSXIR.docx",
+      "folder": "TechniciansDealers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello,\nThis SXIR Internet Reactivation is being made by:\n\nNational Telecom Deployments (NTD) / Dynamic Media Account Number 114403782274\n\nCompany Contact: @PrimaryContact.FullName@\n\nCompany Name: @Customer.Name@\n\nAddress 1: @Customer.Ship.Address1@\n\nAddress 2: @Customer.Ship.City@, @Customer.Ship.State@ @Customer.Ship.Zip@\n\nPhone Number: @PrimaryContact.Phone1@\n\nPersonal ID: @Customer.CustomerID@\n\nIndustry: @Site.Industry@\n\nThis is a SXIR Internet Reactivation.\n\nPlease use the original credentials.\n\nUsername: @Radio.RadioIDNum@\n\nPassword: @Radio.RadioPassword@\n\nSubscription Type: Commercial Internet Radio - 1mo - (DSTR) - w/Actv\nThank you,\nThe Dynamic Media Team",
+      "charCount": 670,
+      "lineCount": 30
+    },
+    "REACTSXM": {
+      "key": "REACTSXM",
+      "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\REACTSXM.docx",
+      "folder": "TechniciansDealers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello,\nThis SiriusXM Satellite Radio Reactivation is being made by:\n\nNational Telecom Deployments (NTD) / Dynamic Media Account Number 1052377144\n\nCompany Contact: @PrimaryContact.FullName@\n\nCompany Name: @Customer.Name@\n\nAddress 1: @Customer.Ship.Address1@\n\nAddress 2: @Customer.Ship.City@, @Customer.Ship.State@ @Customer.Ship.Zip@\n\nPhone Number: @PrimaryContact.Phone1@\n\nPersonal ID: @Customer.CustomerID@\n\nIndustry: @Site.Industry@\n\nThis is a Satellite Reactivation.\n\nESN: @Radio.RadioIDNum@\n\nSubscription Type: @BlockXL.Restricted@, Monthly\nThank you,\nThe Dynamic Media Team",
+      "charCount": 579,
+      "lineCount": 26
+    },
+    "RESENDTRIAL": {
+      "key": "RESENDTRIAL",
+      "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\RESENDTRIAL.docx",
+      "folder": "TechniciansDealers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello,\nThis SiriusXM Internet FREE TRIAL Credential request is being made by: National Telecom Deployments (NTD) / Dynamic Media.\nThe credentials were not received during the initial request. Please reissue the credentials and reply to this request.\nThese are NOT billable credentials to National Telecom Deployments (NTD) / Dynamic Media.\nCompany Contact: @Contact.FirstName@\nCompany Name: @Customer.Name@\nAddress 1: @Customer.Ship.Address1@\nAddress 2: @Customer.Ship.City@, @Customer.Ship.State@ @Customer.Ship.Zip@\nPhone Number: @PrimaryContact.Phone1@\nPersonal ID: @Customer.CustomerID@\nIndustry: @Site.Industry@\nSubscription Type: Internet FREE TRIAL Credentials\nPlease let me know if you have any questions,\n@SalesPersonName@\n@Position@\n@DID@",
+      "charCount": 748,
+      "lineCount": 16
+    },
+    "ACTDMX": {
+      "key": "ACTDMX",
+      "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\ACTDMX.docx",
+      "folder": "TechniciansDealers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello,\n@Customer.Name@ has a Play Network Activation Scheduled for today.\nhttp://crm.dm-us.com/Customer?CustomerID=@Customer.CustomerID@\nPlease make sure that the Service is activated for this customer.\nhttp://serenade.playnetwork.com/default.aspx\nThank you,\nThe Dynamic Media Team",
+      "charCount": 281,
+      "lineCount": 7
+    },
+    "ACTPLAY": {
+      "key": "ACTPLAY",
+      "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\ACTPLAY.docx",
+      "folder": "TechniciansDealers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello,\n@Customer.Name@ has a Play Network Activation Scheduled for today.\nhttp://crm.dm-us.com/Customer?CustomerID=@Customer.CustomerID@\nPlease make sure that the Service is activated for this customer.\nhttp://serenade.playnetwork.com/default.aspx\nThank you,\nThe Dynamic Media Team",
+      "charCount": 281,
+      "lineCount": 7
+    },
+    "ACTSXIR": {
+      "key": "ACTSXIR",
+      "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\ACTSXIR.docx",
+      "folder": "TechniciansDealers",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hello,\nThis SXIR Internet Activation is being made by:\nNational Telecom Deployments (NTD) / Dynamic Media Account Number 114403782274\nCompany Contact: @PrimaryContact.FullName@\nCompany Name: @Customer.Name@\nAddress 1: @Customer.Ship.Address1@\nAddress 2: @Customer.Ship.City@, @Customer.Ship.State@ @Customer.Ship.Zip@\nPhone Number: @PrimaryContact.Phone1@\nPersonal ID: @Customer.CustomerID@\nIndustry: @Site.Industry@\nThis is a SXIR Internet Activation.\nPlease use the following credentials.\nUsername: @Radio.RadioIDNum@\nPassword: @Radio.RadioPassword@\nSubscription Type: Commercial Internet Radio - 1mo - (DSTR) - w/Actv\n\nThank you,\nThe Dynamic Media Team",
+      "charCount": 655,
+      "lineCount": 18
+    },
+    "SHOPTHCONF": {
+      "key": "SHOPTHCONF",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\SHOPTHCONF.docx",
+      "folder": "Tim Hortons",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\n@FirstParagraphCopy@\nYou'll also receive an invitation to the Customer Portal, where you can:\nTrack your order\nView invoices\nManage your account\nOrder Summary\nCustomer Number: @Customer.CustomerID@\nOrder Number: @Order.OrderNumber@\n@OrderPartRows@\nShipping: @ShippingCost@\nTax: @TaxCost@\nTotal: @OrderTotal@\nAll amounts are shown in @CurrencySuffix@. Recurring music service charges will automatically bill to the payment method on file based on your selected plan and number of locations.\nDownload Invoice\nQuestions?\nTHsupport@dm-us.com\nThank you for choosing the Official Tim Hortons Music Program.",
+      "charCount": 624,
+      "lineCount": 18
+    },
+    "SHOPTHCONFF": {
+      "key": "SHOPTHCONFF",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\SHOPTHCONFF.docx",
+      "folder": "Tim Hortons",
+      "versionUsed": null,
+      "subjectHint": "Magasin de musique de Tim Hortons - Confirmation d'achat",
+      "body": "Num\u00e9ro de client : @Customer.CustomerID@\nNum\u00e9ro de commande : @Order.OrderNumber@\nBonjour @Contact.FirstName@,\n\n@FirstParagraphCopy@\n\nEntre-temps, surveillez une invitation \u00e0 notre portail client, o\u00f9 vous pourrez suivre vos commandes, consulter vos factures et g\u00e9rer votre compte.\n\nLes d\u00e9tails de votre commande sont indiqu\u00e9s ci-dessous. Si vous avez des questions ou si vous avez besoin d'aide, veuillez \u00e9crire \u00e0 THsupport@dm-us.com.\n\n@OrderPartRows@\nExp\u00e9dition\t@ShippingCost@\nTaxe\t@TaxCost@\nTotal\t@OrderTotal@\n*Tous les montants sont en @CurrencySuffix@. Les frais r\u00e9currents du service de musique (mensuels ou annuels) seront factur\u00e9s automatiquement au mode de paiement enregistr\u00e9, selon le ou les forfaits choisis et le nombre d'emplacements.\n\nT\u00e9l\u00e9charger la facture\n\nSi vous avez des questions, vous pouvez nous joindre \u00e0 THsupport@dm-us.com.\n\nLe programme de musique officiel de Tim Hortons\n\u00a9 @CurrentYear@ Dynamic Media",
+      "charCount": 927,
+      "lineCount": 27
+    },
+    "THGETSTART": {
+      "key": "THGETSTART",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\THGETSTART.docx",
+      "folder": "Tim Hortons",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nWelcome to the Official Tim Hortons Music Program!\nYour music player can be installed in just a few minutes.\nStep 1 \u2014 Install Your Player\nUnbox your PlayerOne device.\nConnect it to power.\nConnect it to your audio system.\nOnce connected, your player will automatically begin playing Tim Hortons-approved playlists.\nWatch the Quick Setup Video\n\nStep 2 \u2014 Connect Your Remote Control\nYou can manage your music from any phone, tablet, or computer.\nOpen the Tim Hortons Remote Control.\nClick the + icon.\nEnter your six-digit pairing code.\nSelect your location.\nYour Pairing Code(s)\n@RemoteCodeInfo2@\nWatch the Remote Setup Video\n\nNeed Help?\nVisit our Tim Hortons Music Support Center for:\nSetup guides\nTroubleshooting\nFAQs\nVideo tutorials\nOr contact us anytime:\nTHsupport@dm-us.com\nThank you,",
+      "charCount": 810,
+      "lineCount": 29
+    },
+    "THGETSTARTFR": {
+      "key": "THGETSTARTFR",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\THGETSTARTFR.docx",
+      "folder": "Tim Hortons",
+      "versionUsed": null,
+      "subjectHint": "[Important] Guide de configuration du lecteur musical \u2013 Conservez ce courriel",
+      "body": "Comment configurer votre lecteur\nen moins de cinq minutes.\nLe programme musical officiel de Tim Hortons\nImportant : Vos codes de jumelage de la t\u00e9l\u00e9commande se trouvent ci-dessous!\n\n\u00c9tape 1 : Installer votre lecteur musical\nD\u00e9ballez votre appareil PlayerOne.\nBranchez-le et connectez-le \u00e0 votre syst\u00e8me audio.\nLe lecteur commencera automatiquement \u00e0 diffuser les listes de lecture s\u00e9lectionn\u00e9es par Tim Hortons.\nRegardez la vid\u00e9o de configuration rapide\n\n\u00c9tape 2 : Modifier votre musique et contr\u00f4ler votre lecteur\nUne fois votre lecteur sous tension et connect\u00e9, vous pouvez le contr\u00f4ler \u00e0 partir de n'importe quel t\u00e9l\u00e9phone mobile, ordinateur ou navigateur Web. Voici comment :\n\nCliquez sur ce lien : T\u00e9l\u00e9commande Tim Hortons\nCliquez sur l'ic\u00f4ne \u00ab + \u00bb dans le coin sup\u00e9rieur droit.\nEntrez votre code de jumelage \u00e0 six chiffres (voir le tableau ci-dessous).\nAppuyez sur \u00ab Add Player \u00bb, puis s\u00e9lectionnez votre emplacement pour commencer \u00e0 contr\u00f4ler votre musique.\nVotre(s) code(s) de jumelage de la t\u00e9l\u00e9commande :\n@RemoteCodeInfo2@\n\nRegardez la vid\u00e9o de configuration de la t\u00e9l\u00e9commande\nSoutien et ressources\nPour obtenir de l'aide suppl\u00e9mentaire, visitez notre site Web de soutien musical Tim Hortons, o\u00f9 vous trouverez :\n\nFoire aux questions et d\u00e9pannage\nGuides de configuration \u00e9tape par \u00e9tape\nCoordonn\u00e9es de l'\u00e9quipe de soutien Tim Hortons\n\nVisiter le centre de soutien\n\nSi vous avez besoin d'une aide suppl\u00e9mentaire, communiquez avec nous :\n\nCourriel : THsupport@dm-us.com",
+      "charCount": 1478,
+      "lineCount": 39
+    },
+    "THNOTONLINE": {
+      "key": "THNOTONLINE",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\THNOTONLINE.docx",
+      "folder": "Tim Hortons",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @ContactName@,\nWe noticed your music player has been delivered but hasn't connected yet.\nIf everything is already working, no action is needed.\nIf you're still setting up or have run into any issues, we'd be happy to help.\nPlayers Not Yet Connected\n@SiteList@\nHelpful Resources\nPlayer Installation Video\nRemote Control Setup Video\nInstallation Guide\nTroubleshooting Guide\nSupport Center\nOr contact our support team directly.\nWe're here to help get your music up and running as quickly as possible.\n\u2014\nThe Dynamic Media Team",
+      "charCount": 525,
+      "lineCount": 16
+    },
+    "THNOTONLINEFR": {
+      "key": "THNOTONLINEFR",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\THNOTONLINEFR.docx",
+      "folder": "Tim Hortons",
+      "versionUsed": null,
+      "subjectHint": "Mettons vos lecteurs musicaux en ligne \u2014 Besoin d'aide?",
+      "body": "Besoin d'aide pour mettre\nvos lecteurs musicaux en ligne?\nNous n'avons pas encore vu votre lecteur se connecter \u2014 avez-vous besoin d'un coup de main?\n\nBonjour @ContactName@,\n\nVos lecteurs musicaux ont \u00e9t\u00e9 livr\u00e9s et nous avons remarqu\u00e9 qu'ils ne sont pas encore en ligne. Nous voulons nous assurer que vous avez bien re\u00e7u tout et que vous ne rencontrez aucun probl\u00e8me de configuration.\n\nCes lecteurs ne se sont pas encore connect\u00e9s :\n\n@SiteList@\nAdresse de l'\u00e9tablissement\tNum\u00e9ro de suivi\tDate de livraison\n\nSi vos lecteurs sont install\u00e9s et fonctionnent, tout est en ordre! En revanche, si vous rencontrez des difficult\u00e9s, nous sommes l\u00e0 pour vous aider \u2014 cliquez ci-dessous pour obtenir du soutien.\n\nVid\u00e9o : Comment installer votre lecteur\nVid\u00e9o : Comment configurer votre t\u00e9l\u00e9commande\nGuide d'installation et de configuration\nGuide de d\u00e9pannage\nSite Web de soutien\n\nCommuniquer avec notre \u00e9quipe de soutien\n\nNous sommes l\u00e0 pour que tout se passe bien \u2014 n'h\u00e9sitez pas \u00e0 communiquer avec nous. Nous serons ravis de vous aider!\n\n\u2014 L'\u00e9quipe Dynamic Media",
+      "charCount": 1052,
+      "lineCount": 31
+    },
+    "THOrderShip": {
+      "key": "THOrderShip",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\THOrderShip.docx",
+      "folder": "Tim Hortons",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Customer Number: @CustomerNumber@\nOrder Number: @OrderNumber@\nHi @ShipTo.Name@,\nGood news\u2014your Tim Hortons Music Program order is on its way.\nThe following location(s) are included in this shipment:\n@SiteList@\nShipping Address\n@ShipTo.SiteName@\nAttn: @ShipTo.Name@\n@Shipping.Address@\nTracking Information\nCarrier\n@OrderShippingDetail.Carrier@\nTracking Number\n@OrderShippingDetail.TrackingNumber@\nTrack Your Package\nQuestions about your shipment?\nTHsupport@dm-us.com",
+      "charCount": 465,
+      "lineCount": 18
+    },
+    "THPLONLINE": {
+      "key": "THPLONLINE",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\THPLONLINE.docx",
+      "folder": "Tim Hortons",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @ContactName@,\nGreat news\u2014your music players are now online!\nWe hope everything went smoothly and your team is already enjoying the new music.\nActive Locations\n@SiteList@\nWe'd Love Your Feedback\nPlease take a few minutes to let us know how we did.\n[Link to survey]\n\nBest regards,\nThe Dynamic Media Team",
+      "charCount": 305,
+      "lineCount": 11
+    },
+    "THPLONLINEFR": {
+      "key": "THPLONLINEFR",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\THPLONLINEFR.docx",
+      "folder": "Tim Hortons",
+      "versionUsed": null,
+      "subjectHint": "Vos lecteurs musicaux sont en ligne!",
+      "body": "Vos lecteurs musicaux sont en ligne!\nComment s'est pass\u00e9e votre exp\u00e9rience? Nous aimerions avoir de vos nouvelles!\n\nBonjour @ContactName@,\n\nNous sommes ravis de voir vos lecteurs musicaux en ligne! Nous esp\u00e9rons que le processus de configuration s'est bien d\u00e9roul\u00e9 et que votre \u00e9quipe profite d\u00e9j\u00e0 de la nouvelle musique.\n\nLes \u00e9tablissements suivants sont maintenant en ligne et cr\u00e9ent une excellente ambiance :\n\n@SiteList@\n\nComment s'est pass\u00e9e votre exp\u00e9rience? Nous aimerions avoir de vos nouvelles!\nVous avez v\u00e9cu une excellente exp\u00e9rience? Vos commentaires comptent \u00e9norm\u00e9ment! Si tout s'est bien pass\u00e9, partagez votre satisfaction en laissant un avis 5 \u00e9toiles sur Google \u2014 cela signifie beaucoup pour notre \u00e9quipe!\n\nLaisser un avis 5 \u00e9toiles sur Google\n\nQuelque chose ne s'est pas pass\u00e9 comme pr\u00e9vu? Nous voulons le savoir! Cliquez sur le lien pour partager vos commentaires, et nous ferons tout notre possible pour vous aider. Veuillez nous faire part de vos commentaires\n\n\u2014 L'\u00e9quipe Dynamic Media",
+      "charCount": 1005,
+      "lineCount": 24
+    },
+    "THREMOTECODE": {
+      "key": "THREMOTECODE",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\THREMOTECODE.docx",
+      "folder": "Tim Hortons",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @ContactName@,\nManaging your Tim Hortons music just got even easier.\nThe new Soundtrack Remote Control works on virtually any phone, tablet, or web browser\u2014no app required.\nConnect Your Players\nOpen the Tim Hortons Remote Control.\nClick the + icon.\nEnter your six-digit pairing code.\nSelect your location.\nYour Pairing Codes\n@SiteList@\nNeed Help?\nVisit the Tim Hortons Music Support Center for:\nStep-by-step guides\nFAQs\nTroubleshooting\nContact information\nOr email us directly at THsupport@dm-us.com.\nThank you,\nThe Dynamic Media Team",
+      "charCount": 537,
+      "lineCount": 19
+    },
+    "PassResTH": {
+      "key": "PassResTH",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\PassResTH.docx",
+      "folder": "Tim Hortons",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nA password reset has been requested for your Tim Hortons Music Portal account.\nYour Temporary Login Credentials\nUsername\n@Contact.EMail@\nTemporary Password\n@NewPassword@\nLog In to the Music Portal\nFor your security, please log in and create a new password as soon as possible.\nIf you didn't request this password reset, simply ignore this email or contact our support team.\nNeed help?\nTHsupport@dm-us.com",
+      "charCount": 428,
+      "lineCount": 12
+    },
+    "PassResTHFR": {
+      "key": "PassResTHFR",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\PassResTHFR.docx",
+      "folder": "Tim Hortons",
+      "versionUsed": null,
+      "subjectHint": "Boutique Tim Hortons \u2014 R\u00e9initialisation du mot de passe",
+      "body": "Demande de r\u00e9initialisation du mot de passe\nBonjour @Contact.FirstName@,\n\nNous avons re\u00e7u une demande de r\u00e9initialisation de votre mot de passe pour la boutique musicale Tim Hortons Dynamic Media. Voici vos nouveaux identifiants de connexion :\n\nNouveaux identifiants de connexion\nNom d'utilisateur : @Contact.EMail@\n\nMot de passe temporaire : @NewPassword@\n\nPour des raisons de s\u00e9curit\u00e9, veuillez vous connecter et modifier votre mot de passe imm\u00e9diatement. Si vous n'avez pas demand\u00e9 cette r\u00e9initialisation, veuillez ignorer ce courriel ou communiquer avec le soutien.\n\nSi vous avez besoin d'une aide suppl\u00e9mentaire, veuillez \u00e9crire \u00e0 THsupport@dm-us.com.",
+      "charCount": 656,
+      "lineCount": 18
+    },
+    "PRTLTHWLCM": {
+      "key": "PRTLTHWLCM",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\PRTLTHWLCM.docx",
+      "folder": "Tim Hortons",
+      "versionUsed": 2,
+      "subjectHint": null,
+      "body": "Hi @Contact.FirstName@,\nWelcome to the Official Tim Hortons Music Program!\nYour Dynamic Media Music Portal is ready to use. From one convenient place, you can manage your music settings, billing preferences, account details, and more.\nIf you manage multiple Tim Hortons locations, you can access everything using a single login.\nYour Portal Login\nUsername\n@Contact.EMail@\nTemporary Password\n@Contact.Password@\nLog In to the Music Portal\nIf you have any questions or need assistance getting started, we're here to help.\nTHsupport@dm-us.com\nThank you for being part of the Official Tim Hortons Music Program.",
+      "charCount": 606,
+      "lineCount": 13
+    },
+    "PRTLTHWLCMFR": {
+      "key": "PRTLTHWLCMFR",
+      "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\PRTLTHWLCMFR.docx",
+      "folder": "Tim Hortons",
+      "versionUsed": null,
+      "subjectHint": "Bienvenue sur le portail Dynamic Media!",
+      "body": "Bienvenue sur le\nportail musical Dynamic Media!\nLe programme musical officiel de Tim Hortons\nNum\u00e9ro de client : @Customer.CustomerID@\nBonjour @Contact.FirstName@,\n\nBienvenue sur le portail musical Dynamic Media \u2013 la plateforme du programme musical Tim Hortons! Votre portail est pr\u00eat : vous pouvez g\u00e9rer les d\u00e9tails de votre compte, vos pr\u00e9f\u00e9rences de facturation et tous vos param\u00e8tres musicaux.\n\nSi vous supervisez plusieurs \u00e9tablissements Tim Hortons, vous pouvez mettre \u00e0 jour les profils, consulter les factures et tout g\u00e9rer facilement \u00e0 partir d'une seule connexion.\n\nNous sommes ravis de vous accueillir! Tout comme une tasse de caf\u00e9 fra\u00eeche, une bonne musique rend chaque moment meilleur!\n\nIdentifiants de connexion au portail\nNom d'utilisateur : @Contact.EMail@\n\nMot de passe temporaire : @Contact.Password@\n\nCliquez ici pour vous connecter\n\nSi vous avez besoin d'aide ou si vous avez des questions concernant votre portail, veuillez \u00e9crire \u00e0 THsupport@dm-us.com.",
+      "charCount": 973,
+      "lineCount": 25
+    }
+  },
+  "errors": [],
+  "count": 100
+}

@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Inter is loaded via next/font in app/layout.tsx (avoids late @import and works offline). */
+
+/* ── Design tokens ─────────────────────────────────────────
+   Everything brand-colored in the app reads from these variables
+   through the Tailwind theme (see tailwind.config.ts). Never
+   hard-code hex values in components — use the semantic classes:
+   bg-surface-*, text-text-*, bg-accent, etc. */
+
+/* ── Light mode (default) ─────────────────────────────── */
+:root {
+  --color-accent:           0 174 239;   /* Dynamic Media cyan #00AEEF */
+  --color-accent-hover:     0 140 200;
+  --color-accent-muted:     rgba(0, 174, 239, 0.10);
+
+  --color-surface-primary:  246 246 248; /* page background */
+  --color-surface-secondary: 255 255 255; /* cards, sidebar, topbar */
+  --color-surface-elevated: 238 238 243; /* hover states, wells */
+  --color-surface-border:   222 222 228; /* hairlines everywhere */
+
+  --color-text-primary:     28 28 30;
+  --color-text-secondary:   99 99 102;
+  --color-text-muted:       142 142 147;
+}
+
+/* ── Dark mode ────────────────────────────────────────── */
+.dark {
+  --color-accent:           0 174 239;
+  --color-accent-hover:     0 155 214;
+  --color-accent-muted:     rgba(0, 174, 239, 0.12);
+
+  --color-surface-primary:  25 25 25;
+  --color-surface-secondary: 32 32 32;
+  --color-surface-elevated: 42 42 42;
+  --color-surface-border:   46 46 46;
+
+  --color-text-primary:     235 235 235;
+  --color-text-secondary:   153 153 153;
+  --color-text-muted:       107 107 107;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    @apply bg-surface-primary text-text-primary font-sans antialiased;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-surface-border rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-text-muted;
+  }
+}
+
+@layer components {
+  .sidebar-link {
+    @apply flex items-center gap-3 px-3 py-2 rounded-md text-sm font-medium
+           text-text-secondary transition-all duration-150 ease-in-out
+           hover:bg-accent-muted hover:text-accent;
+  }
+
+  .sidebar-link-active {
+    @apply bg-accent-muted text-accent;
+  }
+
+  /* Primary CTA sidebar link. Solid Dynamic Media blue so it visually
+     anchors the nav and signals "start here". */
+  .sidebar-link-primary {
+    @apply flex items-center gap-3 px-3 py-2 rounded-md text-sm font-semibold
+           bg-accent text-white shadow-sm transition-all duration-150 ease-in-out
+           hover:bg-accent-hover hover:text-white;
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.25s ease-out;
+}
+
+/* Print: hide the app shell so page content prints clean. */
+@media print {
+  html,
+  body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+  .app-shell-sidebar,
+  .app-shell-topbar,
+  .no-print {
+    display: none !important;
+  }
+  .app-shell-main {
+    margin-left: 0 !important;
+    padding: 0 !important;
+  }
+}

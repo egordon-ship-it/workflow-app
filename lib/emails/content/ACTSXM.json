@@ -1,0 +1,7 @@
+{
+  "key": "ACTSXM",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\ACTSXM.docx",
+  "subjectHint": null,
+  "body": "Hello,\nThis SiriusXM Satellite Radio Activation is being made by:\nNational Telecom Deployments (NTD) / Dynamic Media Account Number 1052377144\nCompany Contact: @PrimaryContact.FullName@\nCompany Name: @Customer.Name@\nAddress 1: @Customer.Ship.Address1@\nAddress 2: @Customer.Ship.City@, @Customer.Ship.State@ @Customer.Ship.Zip@\nPhone Number: @PrimaryContact.Phone1@\nPersonal ID: @Customer.CustomerID@\nIndustry: @Site.Industry@\nThis is a Satellite Radio Activation.\nESN: @Radio.RadioIDNum@\nSubscription Type: @BlockXL.Restricted@, Monthly\nThank you,\nThe Dynamic Media Team"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "TASKREASSIGN",
+  "versionUsed": null,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\TASKREASSIGN.docx",
+  "subjectHint": "[Alert] New Assigned Task",
+  "body": "Hi @SalesPeople.SalesPersonName-First@,\n\nA @TaskTypeTitle@ Task has been reassigned to you. Please follow up at your earliest convenience.\n\nThank you!"
+}

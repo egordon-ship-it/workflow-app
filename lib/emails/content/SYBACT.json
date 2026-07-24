@@ -1,0 +1,7 @@
+{
+  "key": "SYBACT",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\SYBACT.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nThank you for choosing Soundtrack Your Brand! Your music service is now active and ready to use.\nAccess your account here: www.soundtrackyourbrand.com/login/\nYour Locations\n@strSiteInfo@\nPairing Information: Use the following pairing code or device ID to pair your subscription to your player in the Soundtrack Portal.\n@Pairing Code/DeviceID@\nSetup Info\nHardware - Choose from the physical devices below for setup and use instructions\nPlayerOne Music Player\nSoundtrack 3.0 Player\nSonos\nApp-based Players - Choose your platform for setup and use instructions\niOS Player\nAndroid\nWindows\nMusic Selection & Programming\nReview Ready-Made Playlists: Browse by category or use the search field to find playlists that fits your business.\nUsing a Spotify Playlist: Import a Spotify playlist to create a unique learning experience.\nCreate a Schedule: Blend playlists and set up automatic playlist programming based on time of day and day of the week.\nNeed assistance? We’re here to help.\nCall us Monday–Friday, 9 AM–6 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team"
+}

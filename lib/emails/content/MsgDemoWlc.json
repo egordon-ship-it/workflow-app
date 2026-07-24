@@ -1,0 +1,7 @@
+{
+  "key": "MsgDemoWlc",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\MsgDemoWlc.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nWelcome to Dynamic Media! We’re thrilled to work with you.\nAs a new customer you have access to the Dynamic Media Customer Portal, which can be found at http://demo.dynamicmediamusic.com/Portal/.\nYour login information:\nUsername: @DemoUserName@\nTemporary Password: @DemoPassword@\nTake a few minutes to login with the information provided above. The portal gives you access to your account; plus, everything you need to manage messaging for your business.\nWith the portal, you can:\nUpload new messages\nBuild message schedules\nAssign schedules to your player\nIf you have any questions or need assistance getting started, feel free to reach out.\nCall us Monday–Friday, 9 AM–6 PM ET at 586-978-4214.\nThank you,\nThe Dynamic Media Team"
+}

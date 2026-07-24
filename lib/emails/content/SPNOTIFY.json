@@ -1,0 +1,7 @@
+{
+  "key": "SPNOTIFY",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\SPNOTIFY - TH.docx",
+  "subjectHint": null,
+  "body": "The following Tim Hortons location has enrolled in the Soundtrack Music Service and requested assistance with installation or audio system setup.\nPlease contact the location below to coordinate support.\n@Heading@\nContact Information\n@Contact.Name@\n@Contact.Address1@\n@Contact.Address2@\n@Contact.City@, @Contact.State@ @Contact.Zip@\n@Contact.Phone1@\n@Contact.Email@\nInstallation Location\n@Site.Name@\nStore #: @Site.ClientKey@\n@Site.Address1@\n@Site.Address2@\n@Site.City@, @Site.State@ @Site.Zip@\nThank you."
+}

@@ -1,0 +1,7 @@
+{
+  "key": "SYBNOTIFY",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\SYBNOTIFY.docx",
+  "subjectHint": null,
+  "body": "Hello @SalesPersonInfo.SalesPersonName@,\nA new Soundtrack Your Brand free trial activation task has been created.\nPlease review the assigned customer and complete the activation process.\nThank you."
+}

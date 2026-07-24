@@ -1,0 +1,7 @@
+{
+  "key": "DMPSSFUM",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\DMPSSFUM.docx",
+  "subjectHint": null,
+  "body": "Hi @SalesPersonFirstName@,\n@CustomerName@ placed an order (#@OrderID@) on the @Channel@ within the past 24 hours. A Store Follow Up Manager task has been created for you. Please follow up at your earliest convenience.\nThank you,\n@SendFromName@\n@SendFromTitle@"
+}

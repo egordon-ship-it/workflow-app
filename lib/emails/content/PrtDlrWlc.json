@@ -1,0 +1,7 @@
+{
+  "key": "PrtDlrWlc",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\PrtDlrWlc.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nWelcome!\nYour Dynamic Media Customer Portal is now ready to use.\nLog in here:\nhttps://portal.dynamicmediamusic.com\nLogin Information\nUsername:\n@Contact.EMail@\nTemporary Password:\n@Contact.Password@\nThe portal allows you to:\nUpdate account information\nView invoices\nDownload invoices\nMake payments\nQuestions?\n586-978-4214\nCustomerService@DM-US.com\nThank you for choosing Dynamic Media."
+}

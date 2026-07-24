@@ -1,0 +1,7 @@
+{
+  "key": "ACTSXIR",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\ACTSXIR.docx",
+  "subjectHint": null,
+  "body": "Hello,\nThis SXIR Internet Activation is being made by:\nNational Telecom Deployments (NTD) / Dynamic Media Account Number 114403782274\nCompany Contact: @PrimaryContact.FullName@\nCompany Name: @Customer.Name@\nAddress 1: @Customer.Ship.Address1@\nAddress 2: @Customer.Ship.City@, @Customer.Ship.State@ @Customer.Ship.Zip@\nPhone Number: @PrimaryContact.Phone1@\nPersonal ID: @Customer.CustomerID@\nIndustry: @Site.Industry@\nThis is a SXIR Internet Activation.\nPlease use the following credentials.\nUsername: @Radio.RadioIDNum@\nPassword: @Radio.RadioPassword@\nSubscription Type: Commercial Internet Radio - 1mo - (DSTR) - w/Actv\n\nThank you,\nThe Dynamic Media Team"
+}

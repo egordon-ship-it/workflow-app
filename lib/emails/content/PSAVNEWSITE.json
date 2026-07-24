@@ -1,0 +1,7 @@
+{
+  "key": "PSAVNEWSITE",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Encore\\PSAVNEWSITE.docx",
+  "subjectHint": null,
+  "body": "Hi @FirstName@,\nYou've been added as the primary music contact for the location below.\nYou now have full access to manage music for this location through the Dynamic Media Music Portal.\nNew Location\n@SiteDetails@\nLog In to the Music Portal\nCall us Monday–Friday, 9 AM–6 PM ET at 586-978-4214. You can also reach us by email at CustomerService@dm-us.com.\nThank you!\nThe Dynamic Media Team"
+}

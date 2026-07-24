@@ -1,0 +1,7 @@
+{
+  "key": "TSKCONFLICT",
+  "versionUsed": null,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\TSKCONFLICT.docx",
+  "subjectHint": "Task Conflict Found with CustID (@Customer.CustomerID@)",
+  "body": "Customer Service,\n\nA conflicting Accounts Receivable task has been detected for \"@Customer.Name@\" (@Customer.CustomerID@) - Billing Group \"@BillingGroup.Name@\" (@BillingGroup.BillingGroupID@). This conflict could indicate one of three possibilities:\n\n    1) There is an open AR task, yet an order tied to it has been paid\n    2) There is a closed AR task, yet an order tied to it has a balance\n    3) There is a new order with a balance, but no new AR task\n\nPlease investigate and feel free to ask the IT team any questions you may have.\n\nThank you,\n-Reminder Mailer"
+}

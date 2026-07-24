@@ -1,0 +1,7 @@
+{
+  "key": "REACTDEMO",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\REACTDEMO.docx",
+  "subjectHint": null,
+  "body": "Hi @FirstName@,\nYour SiriusXM Business free trial is now active!\nHere are your login credentials:\nUsername:\n@RadioIDNum@\nPassword:\n@RadioPassword@\nTrial Ends:\n@DemoEndDate@\nHere are a few things you can do today with your trial:\nListen from your computer\nListen from your mobile device\nBrowse the full channel lineup\nIf you have any questions during your trial, we're here to help. Feel free to reach out to me anytime, or by contacting customer service at 586-978-4214.\nBest,\n@SalesPersonName@"
+}

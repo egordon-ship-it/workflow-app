@@ -1,0 +1,7 @@
+{
+  "key": "SHOPTHCONF",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\SHOPTHCONF.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\n@FirstParagraphCopy@\nYou'll also receive an invitation to the Customer Portal, where you can:\nTrack your order\nView invoices\nManage your account\nOrder Summary\nCustomer Number: @Customer.CustomerID@\nOrder Number: @Order.OrderNumber@\n@OrderPartRows@\nShipping: @ShippingCost@\nTax: @TaxCost@\nTotal: @OrderTotal@\nAll amounts are shown in @CurrencySuffix@. Recurring music service charges will automatically bill to the payment method on file based on your selected plan and number of locations.\nDownload Invoice\nQuestions?\nTHsupport@dm-us.com\nThank you for choosing the Official Tim Hortons Music Program."
+}

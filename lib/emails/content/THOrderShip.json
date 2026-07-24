@@ -1,0 +1,7 @@
+{
+  "key": "THOrderShip",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\THOrderShip.docx",
+  "subjectHint": null,
+  "body": "Customer Number: @CustomerNumber@\nOrder Number: @OrderNumber@\nHi @ShipTo.Name@,\nGood news—your Tim Hortons Music Program order is on its way.\nThe following location(s) are included in this shipment:\n@SiteList@\nShipping Address\n@ShipTo.SiteName@\nAttn: @ShipTo.Name@\n@Shipping.Address@\nTracking Information\nCarrier\n@OrderShippingDetail.Carrier@\nTracking Number\n@OrderShippingDetail.TrackingNumber@\nTrack Your Package\nQuestions about your shipment?\nTHsupport@dm-us.com"
+}

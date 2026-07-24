@@ -1,0 +1,7 @@
+{
+  "key": "THPLONLINE",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\THPLONLINE.docx",
+  "subjectHint": null,
+  "body": "Hi @ContactName@,\nGreat news—your music players are now online!\nWe hope everything went smoothly and your team is already enjoying the new music.\nActive Locations\n@SiteList@\nWe'd Love Your Feedback\nPlease take a few minutes to let us know how we did.\n[Link to survey]\n\nBest regards,\nThe Dynamic Media Team"
+}

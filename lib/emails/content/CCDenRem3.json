@@ -1,0 +1,7 @@
+{
+  "key": "CCDenRem3",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\CCDenRem3.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nThis is our final reminder regarding your account.\nWe have not been able to process the payment method on file, and your music service is scheduled to be deactivated on @DeactDate@.\nTo avoid an interruption to your service and a reactivation fee, please update your payment information before the end of today.\nYour invoice (#@Order.OrderNumber@) is available here:\nDownload Invoice\nUpdate your payment method in the customer Portal:\nhttps://portal.dynamicmediamusic.com\nUsername:\n@Contact.Email@\nTemporary Password (if this is your first time logging in):\n@Customer.CustomerID@\nWe’re here to help. If you need assistance, please call us at 586-978-4214.\nThank you,\nBilling Team at Dynamic Media"
+}

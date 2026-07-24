@@ -1,0 +1,7 @@
+{
+  "key": "PrtDlrPR",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\PrtDlrPR.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nA password reset has been requested for your account.\nYour temporary login information:\nUsername: @Contact.EMail@\nTemporary Password: @NewPassword@\nAfter signing in, we recommend updating your password from your account settings.\nNeed assistance?\nCall us at 586-978-4214.\nThank you,\nDynamic Media"
+}

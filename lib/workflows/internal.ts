@@ -1,0 +1,507 @@
+import type { WorkflowDefinition } from "./types";
+
+/**
+ * Pure internal staff workflows — one business process each.
+ * Companions already owned by VIP/customer/billing journeys stay there.
+ */
+
+export const INTERNAL_WORKFLOWS: WorkflowDefinition[] = [
+  {
+    id: "internal-task-assign",
+    sequenceKey: "Internal.TaskLifecycle",
+    name: "Task Assign / Reassign",
+    businessProcess: "Internal task assignment lifecycle",
+    departmentSlug: "internal",
+    processType: "trigger",
+    summary:
+      "Staff alert when a task is created (TASKASSIGN) or later reassigned (TASKREASSIGN).",
+    sourceJobs: ["CRM", "CustomerPortal", "DM_Store", "OnlineSign", "PaymentStatusSync"],
+    enrollment: {
+      summary: "CRM task created or ownership changes.",
+      details: [],
+    },
+    start: {
+      summary: "Task created or reassigned.",
+      triggers: ["Event: TASKASSIGN", "Event: TASKREASSIGN"],
+    },
+    stop: {
+      summary: "After assignee is notified.",
+      details: [],
+    },
+    suppression: { summary: "Staff-only; dedupe same task id.", details: [] },
+    entryStepId: "start",
+    steps: [
+      {
+        id: "start",
+        kind: "start",
+        label: "Task ownership event",
+        triggerKind: "event",
+        triggerDetail: "TASKASSIGN / TASKREASSIGN",
+        next: "which",
+      },
+      {
+        id: "which",
+        kind: "branch",
+        label: "New or reassigned?",
+        branches: [
+          {
+            id: "a",
+            label: "Assigned",
+            condition: "TASKASSIGN",
+            next: "assign",
+            tone: "neutral",
+          },
+          {
+            id: "r",
+            label: "Reassigned",
+            condition: "TASKREASSIGN",
+            next: "reassign",
+            tone: "neutral",
+          },
+        ],
+      },
+      {
+        id: "assign",
+        kind: "email",
+        label: "Task assigned",
+        emailKey: "TASKASSIGN",
+        subject: "[Alert] New Assigned Task",
+        next: "exit",
+      },
+      {
+        id: "reassign",
+        kind: "email",
+        label: "Task reassigned",
+        emailKey: "TASKREASSIGN",
+        subject: "[Alert] New Assigned Task",
+        next: "exit",
+      },
+      { id: "exit", kind: "exit", label: "Assignee notified", exitTone: "success" },
+    ],
+    emails: [
+      {
+        key: "TASKASSIGN",
+        name: "Task assigned",
+        subject: "[Alert] New Assigned Task",
+        purpose: "Notification of task created",
+        trigger: "event",
+        apps: ["CRM"],
+        step: 1,
+      },
+      {
+        key: "TASKREASSIGN",
+        name: "Task reassigned",
+        subject: "[Alert] New Assigned Task",
+        purpose: "Task reassignment",
+        trigger: "event",
+        apps: ["CRM"],
+        step: 2,
+      },
+    ],
+  },
+
+  {
+    id: "internal-ar-task-conflict",
+    sequenceKey: "Internal.AR.TaskConflict",
+    name: "AR Task Conflict",
+    businessProcess: "AR task conflict alert",
+    departmentSlug: "internal",
+    processType: "trigger",
+    summary: "Scheduled RemainderMailer alert when an AR task conflicts (TSKCONFLICT).",
+    sourceJobs: ["RemainderMailer"],
+    enrollment: {
+      summary: "AR task conflict detected for a customer.",
+      details: [],
+    },
+    start: {
+      summary: "Conflict found by RemainderMailer.",
+      triggers: ["Scheduled: TSKCONFLICT"],
+    },
+    stop: {
+      summary: "After staff alert sends.",
+      details: [],
+    },
+    suppression: { summary: "Staff-only.", details: [] },
+    entryStepId: "start",
+    steps: [
+      {
+        id: "start",
+        kind: "start",
+        label: "AR conflict detected",
+        triggerKind: "scheduled",
+        triggerDetail: "TSKCONFLICT · RemainderMailer",
+        next: "conflict",
+      },
+      {
+        id: "conflict",
+        kind: "email",
+        label: "AR task conflict",
+        emailKey: "TSKCONFLICT",
+        subject: "Task Conflict Found with CustID",
+        next: "exit",
+      },
+      { id: "exit", kind: "exit", label: "Staff alerted", exitTone: "danger" },
+    ],
+    emails: [
+      {
+        key: "TSKCONFLICT",
+        name: "AR task conflict",
+        subject: "Task Conflict Found with CustID",
+        purpose: "AR task conflict",
+        trigger: "scheduled",
+        apps: ["RemainderMailer"],
+      },
+    ],
+  },
+
+  {
+    id: "internal-account-tier-ticket",
+    sequenceKey: "Internal.AccountTier",
+    name: "Account-Tier Ticket",
+    businessProcess: "Account tier change ticket",
+    departmentSlug: "internal",
+    processType: "trigger",
+    summary: "Ticket to staff when a customer account tier changes (BIGCUSTTASK).",
+    sourceJobs: ["CRM", "AutoInserter"],
+    enrollment: {
+      summary: "Customer AccountTier changed.",
+      details: [],
+    },
+    start: {
+      summary: "Account tier change event.",
+      triggers: ["Event: BIGCUSTTASK"],
+    },
+    stop: {
+      summary: "After ticket email sends.",
+      details: [],
+    },
+    suppression: { summary: "Staff-only.", details: [] },
+    entryStepId: "start",
+    steps: [
+      {
+        id: "start",
+        kind: "start",
+        label: "Account tier changed",
+        triggerKind: "event",
+        triggerDetail: "BIGCUSTTASK",
+        next: "tier",
+      },
+      {
+        id: "tier",
+        kind: "email",
+        label: "Account-tier ticket",
+        emailKey: "BIGCUSTTASK",
+        subject: "Account tier change ticket",
+        next: "exit",
+      },
+      { id: "exit", kind: "exit", label: "Ticket created", exitTone: "success" },
+    ],
+    emails: [
+      {
+        key: "BIGCUSTTASK",
+        name: "Account-tier ticket",
+        subject: "Account tier change ticket",
+        purpose: "Ticket on account-tier change",
+        trigger: "event",
+        apps: ["CRM"],
+      },
+    ],
+  },
+
+  {
+    id: "internal-new-job",
+    sequenceKey: "Internal.NewJob",
+    name: "New Job Created",
+    businessProcess: "CRM new job notification",
+    departmentSlug: "internal",
+    processType: "trigger",
+    summary: "Notify staff when a new Job is created in CRM (NEWJOBENTRY).",
+    sourceJobs: ["CRM"],
+    enrollment: {
+      summary: "New Job record created.",
+      details: [],
+    },
+    start: {
+      summary: "New job created.",
+      triggers: ["Event: NEWJOBENTRY"],
+    },
+    stop: {
+      summary: "After notify sends.",
+      details: [],
+    },
+    suppression: { summary: "Staff-only.", details: [] },
+    entryStepId: "start",
+    steps: [
+      {
+        id: "start",
+        kind: "start",
+        label: "New job created",
+        triggerKind: "event",
+        triggerDetail: "NEWJOBENTRY",
+        next: "job",
+      },
+      {
+        id: "job",
+        kind: "email",
+        label: "New job created",
+        emailKey: "NEWJOBENTRY",
+        subject: "New Job created",
+        next: "exit",
+      },
+      { id: "exit", kind: "exit", label: "Staff notified", exitTone: "success" },
+    ],
+    emails: [
+      {
+        key: "NEWJOBENTRY",
+        name: "New job created",
+        subject: "New Job created",
+        purpose: "Notify new Job in CRM",
+        trigger: "event",
+        apps: ["CRM"],
+      },
+    ],
+  },
+
+  {
+    id: "internal-store-follow-up",
+    sequenceKey: "Internal.StoreFollowUp",
+    name: "Store Follow-Up Task",
+    businessProcess: "Store follow-up manager task",
+    departmentSlug: "internal",
+    processType: "trigger",
+    summary: "New store follow-up manager task (DMPSSFUM).",
+    sourceJobs: ["DM_Store", "LeadInserter"],
+    enrollment: {
+      summary: "Store follow-up task created.",
+      details: [],
+    },
+    start: {
+      summary: "Follow-up task created.",
+      triggers: ["Event: DMPSSFUM"],
+    },
+    stop: {
+      summary: "After notify sends.",
+      details: [],
+    },
+    suppression: { summary: "Staff-only.", details: [] },
+    entryStepId: "start",
+    steps: [
+      {
+        id: "start",
+        kind: "start",
+        label: "Store follow-up created",
+        triggerKind: "event",
+        triggerDetail: "DMPSSFUM",
+        next: "follow",
+      },
+      {
+        id: "follow",
+        kind: "email",
+        label: "Store follow-up",
+        emailKey: "DMPSSFUM",
+        subject: "Store follow-up manager task",
+        next: "exit",
+      },
+      { id: "exit", kind: "exit", label: "Manager notified", exitTone: "success" },
+    ],
+    emails: [
+      {
+        key: "DMPSSFUM",
+        name: "Store follow-up task",
+        subject: "Store follow-up manager task",
+        purpose: "New store follow-up",
+        trigger: "event",
+        apps: ["CRM"],
+      },
+    ],
+  },
+
+  {
+    id: "internal-new-lead",
+    sequenceKey: "Internal.Lead.Insert",
+    name: "New Lead Assigned",
+    businessProcess: "New CRM lead notification",
+    departmentSlug: "internal",
+    processType: "trigger",
+    summary: "Notify assignee when a new lead is inserted (LDINSRTASGN).",
+    sourceJobs: ["LeadInserter", "CRM"],
+    enrollment: {
+      summary: "New lead inserted into CRM.",
+      details: [],
+    },
+    start: {
+      summary: "Lead inserted.",
+      triggers: ["Event: LDINSRTASGN"],
+    },
+    stop: {
+      summary: "After assignee notify.",
+      details: [],
+    },
+    suppression: { summary: "Staff-only.", details: [] },
+    entryStepId: "start",
+    steps: [
+      {
+        id: "start",
+        kind: "start",
+        label: "New lead inserted",
+        triggerKind: "event",
+        triggerDetail: "LDINSRTASGN",
+        next: "insert",
+      },
+      {
+        id: "insert",
+        kind: "email",
+        label: "New lead assigned",
+        emailKey: "LDINSRTASGN",
+        subject: "New lead inserted",
+        next: "exit",
+      },
+      { id: "exit", kind: "exit", label: "Assignee notified", exitTone: "success" },
+    ],
+    emails: [
+      {
+        key: "LDINSRTASGN",
+        name: "New lead inserted",
+        subject: "New lead inserted",
+        purpose: "Notify assignee of new CRM lead",
+        trigger: "event",
+        apps: ["CRM"],
+        step: 1,
+      },
+    ],
+  },
+
+  {
+    id: "internal-abandoned-lead",
+    sequenceKey: "Internal.Lead.Abandoned",
+    name: "Abandoned Lead Reassignment",
+    businessProcess: "Abandoned web lead reassignment",
+    departmentSlug: "internal",
+    processType: "trigger",
+    summary: "Reassign a potentially abandoned web lead (XMSTORABAND).",
+    sourceJobs: ["LeadInserter", "CRM"],
+    enrollment: {
+      summary: "Web lead flagged as potentially abandoned.",
+      details: [],
+    },
+    start: {
+      summary: "Abandoned lead detected.",
+      triggers: ["Event: XMSTORABAND"],
+    },
+    stop: {
+      summary: "After reassignment notify.",
+      details: [],
+    },
+    suppression: { summary: "Staff-only.", details: [] },
+    entryStepId: "start",
+    steps: [
+      {
+        id: "start",
+        kind: "start",
+        label: "Abandoned lead detected",
+        triggerKind: "event",
+        triggerDetail: "XMSTORABAND",
+        next: "aband",
+      },
+      {
+        id: "aband",
+        kind: "email",
+        label: "Abandoned lead",
+        emailKey: "XMSTORABAND",
+        subject: "Abandoned web lead",
+        next: "exit",
+      },
+      { id: "exit", kind: "exit", label: "Reassigned", exitTone: "danger" },
+    ],
+    emails: [
+      {
+        key: "XMSTORABAND",
+        name: "Abandoned lead",
+        subject: "Abandoned web lead",
+        purpose: "Assign potentially abandoned web lead",
+        trigger: "event",
+        apps: ["CRM"],
+      },
+    ],
+  },
+
+  {
+    id: "internal-collections-termination",
+    sequenceKey: "Internal.Collections.Termination",
+    name: "Collections Network Termination",
+    businessProcess: "Non-pay DMX / Play termination requests",
+    departmentSlug: "internal",
+    processType: "trigger",
+    summary:
+      "Ops requests to terminate DMX (DEACTDMX) or Play (DEACTPLAY) for non-payment.",
+    sourceJobs: ["CRM"],
+    enrollment: {
+      summary: "Collections / ops initiates non-pay termination.",
+      details: [],
+    },
+    start: {
+      summary: "Non-pay termination request.",
+      triggers: ["Event: DEACTDMX", "Event: DEACTPLAY"],
+    },
+    stop: {
+      summary: "After ops email sends.",
+      details: [],
+    },
+    suppression: { summary: "Parallel by network.", details: [] },
+    entryStepId: "start",
+    steps: [
+      {
+        id: "start",
+        kind: "start",
+        label: "Non-pay termination",
+        triggerKind: "event",
+        triggerDetail: "Collections / ops",
+        next: "net",
+      },
+      {
+        id: "net",
+        kind: "branch",
+        label: "Network?",
+        branches: [
+          { id: "dmx", label: "DMX", condition: "DEACTDMX", next: "dmx", tone: "neutral" },
+          { id: "play", label: "Play", condition: "DEACTPLAY", next: "play", tone: "neutral" },
+        ],
+      },
+      {
+        id: "dmx",
+        kind: "email",
+        label: "DMX terminate",
+        emailKey: "DEACTDMX",
+        subject: "Terminate account for @Customer.Name@",
+        next: "exit",
+      },
+      {
+        id: "play",
+        kind: "email",
+        label: "Play terminate",
+        emailKey: "DEACTPLAY",
+        subject: "Play Network Termination Request",
+        next: "exit",
+      },
+      { id: "exit", kind: "exit", label: "Termination requested", exitTone: "danger" },
+    ],
+    emails: [
+      {
+        key: "DEACTDMX",
+        name: "DMX Termination",
+        subject: "Terminate account for @Customer.Name@",
+        purpose: "Ops terminate DMX for non-payment",
+        trigger: "event",
+        apps: ["CRM"],
+      },
+      {
+        key: "DEACTPLAY",
+        name: "Play Network Termination",
+        subject: "Play Network Termination Request",
+        purpose: "Ops terminate Play for non-payment",
+        trigger: "event",
+        apps: ["CRM"],
+      },
+    ],
+  },
+];

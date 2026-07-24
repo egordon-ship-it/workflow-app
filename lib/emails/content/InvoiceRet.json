@@ -1,0 +1,7 @@
+{
+  "key": "InvoiceRet",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Customers\\InvoiceRet.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.Name@,\nYour refund has been processed.\nYou can download your refund invoice using the secure link below.\n@Order.PublicKey@\nIf you have any questions regarding this refund or your account, our team is happy to help.\nCall us anytime Monday–Friday, 9 AM–6 PM ET at 586-978-4214.\nThank you,\nBilling Team at Dynamic Media"
+}

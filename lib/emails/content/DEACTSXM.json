@@ -1,0 +1,7 @@
+{
+  "key": "DEACTSXM",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\TechniciansDealers\\DEACTSXM.docx",
+  "subjectHint": null,
+  "body": "Hello,\nThis SiriusXM Satellite Radio Deactivation is being made by:\n\nNational Telecom Deployments (NTD) / Dynamic Media Account Number 1052377144\n\nCompany Contact: @PrimaryContact.FullName@\n\nCompany Name: @Customer.Name@\n\nAddress 1: @Customer.Ship.Address1@\n\nAddress 2: @Customer.Ship.City@, @Customer.Ship.State@ @Customer.Ship.Zip@\n\nPhone Number: @PrimaryContact.Phone1@\n\nPersonal ID: @Customer.CustomerID@\n\nIndustry: @Site.Industry@\n\nThis is a Satellite Deactivation.\n\nSatellite ESN: @Radio.RadioIDNum@\n\nSubscription Type: @BlockXL.Restricted@, Monthly\nThank you,\nThe Dynamic Media Team"
+}

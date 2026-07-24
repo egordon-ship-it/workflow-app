@@ -1,0 +1,7 @@
+{
+  "key": "XMSTORABAND",
+  "versionUsed": null,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Internal\\XMSTORABAND.docx",
+  "subjectHint": "Potentially abandoned lead in @Source@ has been assigned to you",
+  "body": "Hello,\n\nA new lead appears to have been abandoned in the @Source@. Based on our data, the user most recently got up to @LeadAnalysis.StageName@. Below is the information we know of...\n\nLead Link: @CRM.TaskLink@\nSubmitted: @DateAbandoned@\n\nCustomer Name: @Customer.Name@\nContact: @Contact.FirstName@ @Contact.LastName@\nPhone: @Customer.Phone1@\nEmail: @Contact.EMail@\n\nFor any questions or concerns regarding this email or the generated lead, please feel free to forward this email along with your question/concern to your friendly Dynamic Media development team!\n\n-Lead Inserter"
+}

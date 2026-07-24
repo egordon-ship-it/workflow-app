@@ -1,0 +1,7 @@
+{
+  "key": "PRTLTHWLCM",
+  "versionUsed": 2,
+  "sourcePath": "v:\\Marketing\\Email Templates\\Tim Hortons\\PRTLTHWLCM.docx",
+  "subjectHint": null,
+  "body": "Hi @Contact.FirstName@,\nWelcome to the Official Tim Hortons Music Program!\nYour Dynamic Media Music Portal is ready to use. From one convenient place, you can manage your music settings, billing preferences, account details, and more.\nIf you manage multiple Tim Hortons locations, you can access everything using a single login.\nYour Portal Login\nUsername\n@Contact.EMail@\nTemporary Password\n@Contact.Password@\nLog In to the Music Portal\nIf you have any questions or need assistance getting started, we're here to help.\nTHsupport@dm-us.com\nThank you for being part of the Official Tim Hortons Music Program."
+}

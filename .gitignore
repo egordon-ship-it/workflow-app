@@ -6,6 +6,9 @@
 /out/
 next-env.d.ts
 
+# firebase
+.firebase/
+
 # production
 /build
 
